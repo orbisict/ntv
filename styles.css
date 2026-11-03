@@ -276,7 +276,7 @@ button, input, select, textarea {
 .brand-sub-title {
   font-size: 0.72rem;
   font-weight: 800;
-  color: var(--vhu-gold-light);
+  color: #ffffff;
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
