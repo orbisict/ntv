@@ -1,0 +1,12 @@
+with open('index.html', encoding='utf-8') as f:
+    html = f.read()
+print('has pillars-grid:', 'pillars-grid' in html)
+print('has agenda:', 'id="agenda"' in html)
+print('has finance-overview-card:', 'finance-overview-card' in html)
+print('has budget-breakdown:', 'budget-breakdown' in html)
+print('has stacked-bar:', 'stacked-bar' in html)
+print('has legend-item:', 'legend-item' in html)
+print('has appendix-tabs:', 'appendix-tabs' in html)
+print('has live-ticket-card:', 'live-ticket-card' in html)
+print('has budget-table-wrap:', 'budget-table-wrap' in html)
+print('has budget-group-header-cell:', 'budget-group-header-cell' in html)

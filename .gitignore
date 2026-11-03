@@ -1,0 +1,56 @@
+# ============================================================
+# Git Ignore Configuration - Đề án Chạm Một Sắc Sen VHU 2027
+# ============================================================
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# Editor & IDE files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo
+
+# Temporary Chrome / Puppeteer Debugging Directories
+.chrome_*
+.chrome_tmp*
+.chrome_verify_tmp*
+*.tmp
+
+# Python Artifacts & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Node / Package Manager Files
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Root Screenshot Dumps (Keep assets/ completely tracked)
+/*.png
+/*.jpg
+/*.jpeg
+!/assets/**
+
+# Logs
+*.log

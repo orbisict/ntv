@@ -1,0 +1,1416 @@
+window.SITE_DATA = {
+  "agenda": [
+    {
+      "time": "7:30 – 8:10",
+      "activity": "Đón khách, Check-in và ổn định khán giả",
+      "content": "Đón và ổn định khách mời",
+      "audio": "Nhạc nền nhẹ mang âm hưởng",
+      "team": "Bộ phận lễ tân - Đối ngoại"
+    },
+    {
+      "time": "8:10 – 8:20",
+      "activity": "Mở màn tiết mục “Sắc Sen VHU",
+      "content": "Tái hiện vẻ đẹp của quê hương Đồng Tháp qua hình ảnh hoa sen , cảnh sắc thiên nhiên và con người miền Tây.",
+      "audio": "Nhạc beat tiết mục",
+      "team": "CLB Văn Nghệ"
+    },
+    {
+      "time": "8:20 – 8:30",
+      "activity": "Giới thiệu đại biểu",
+      "content": "MC giới thiệu đại diện Trường Đại học Văn Hiến, khách mời, doanh nghiệp, nhà tài trợ và các đơn vị đồng hành.",
+      "audio": "Nhạc nền sự kiện",
+      "team": "MC, ban nội dung, ban kỹ thuật"
+    },
+    {
+      "time": "8:30- 8:40",
+      "activity": "Phát biểu khai mạc",
+      "content": "Đại diện Trường Đại học Văn Hiến:PGS.TS Nguyễn Minh Đức phát biểu khai mạc",
+      "audio": "Nhạc nền sự kiện",
+      "team": "Ban nội dung, ban kỹ thuật"
+    },
+    {
+      "time": "8:40 – 9:00",
+      "activity": "Tiết mục “Hồn Sen Đất Việt” kết hợp cùng các nghệ nhân “Đờn ca tài tử”.",
+      "content": "Phần trình diễn kết hợp âm nhạc truyền thống và Đờn ca tài tử, góp phần tôn vinh những giá trị văn hóa đặc trưng của Nam Bộ.",
+      "audio": "Nhạc beat tiết mục",
+      "team": "CLB văn nghệ phối hợp cùng các nghệ nhân"
+    },
+    {
+      "time": "9:00 – 9:50",
+      "activity": "Giao lưu cùng chủ tịch HungHau",
+      "content": "Chủ tịch tập đoàn HungHau chia sẻ về hành trình của mình khi đồng hành và phát triển cùng VHU",
+      "audio": "Nhạc nền",
+      "team": "Ban Nội dung, MC, chủ tịch Hunghau"
+    },
+    {
+      "time": "9:50 – 10:05",
+      "activity": "Giao lưu cùng sinh viên",
+      "content": "Sinh viên đặt câu hỏi cho khách mời",
+      "audio": "Không",
+      "team": "Ban nội dung, mc, ban hậu cần"
+    },
+    {
+      "time": "10:05 – 10:25",
+      "activity": "Fashion Show “Sắc Sen”",
+      "content": "Bộ sưu tập thời trang lấy văn hóa miền Tây với sự sự tham gia của Hoa hậu Nguyễn Thị Yến Nhi và Á hậu Lê Phan Hạnh Nguyên , CLB Thời trang",
+      "audio": "Nhạc nền sự kiện",
+      "team": "CLB thời trang"
+    },
+    {
+      "time": "10:25 – 10:40",
+      "activity": "Trình diễn của ca sĩ khách mời Phương Mỹ Chi",
+      "content": "Tiết mục: Hồn quê và Ếch ngoài đáy giếng",
+      "audio": "Âm thanh tiết mục",
+      "team": "Nghệ sĩ khách mời, ban nội dung, ban kỹ thuật"
+    },
+    {
+      "time": "10:40 – 10:55",
+      "activity": "Tổng kết",
+      "content": "Vinh danh, trao hoa và kỷ niệm chương và quà tri ân các nhà tài trợ; chụp ảnh lưu niệm.",
+      "audio": "Nhạc nền",
+      "team": "Ban Nội dung, MC, ban điều phối, ban kỹ thuật"
+    },
+    {
+      "time": "10:55 – 11:10",
+      "activity": "Tiễn khách",
+      "content": "Hướng dẫn ra về",
+      "audio": "Nhạc sự kiện",
+      "team": "Ban Đối ngoại, ban hậu cần, ban điều phối, ban kĩ thuật"
+    }
+  ],
+  "media_pre": [
+    {
+      "activity": "Giới thiệu chủ đề, phát động sự quan tâm ban đầu",
+      "objective": "Tạo tò mò, nhận diện ban đầu",
+      "content": "Video teaser",
+      "channel": "Fanpage Đại học Văn Hiến",
+      "time": "23/5 – 28/5",
+      "lead": "Media Team + Orbis ICT",
+      "kpi": "≥30.000 lượt tiếp cận; ≥3.000 chia sẻ"
+    },
+    {
+      "activity": "Công bố chính thức Chương trình, Công bố mục đích thiện nguyện và đơn vị nhận (hoặc thời điểm sẽ công bố)",
+      "objective": "Cung cấp thông tin chính thức, tạo nhận biết",
+      "content": "Đăng Key Visual và bài viết công bố thông tin sự kiện, thời gian, địa điểm",
+      "channel": "Fanpage Đai học Văn Hiến, Portal, Facebook, TikTok",
+      "time": "1/6",
+      "lead": "Media Team",
+      "kpi": "≥50.000 lượt tiếp cận ; ≥5.000 tương tác"
+    },
+    {
+      "activity": "Reveal hoạt động Chương trình",
+      "objective": "Tạo sự mong đợi về chương trình",
+      "content": "Giới thiệu các hoạt động, khu vực check-in, booth nhà tài trợ",
+      "channel": "Facebook, TikTok,",
+      "time": "5/6- 10/6",
+      "lead": "Media Team + Ban Tổ chức",
+      "kpi": "≥ 25.000 lượt tiếp cận ; ≥ 1000 tương tác"
+    },
+    {
+      "activity": "Giới thiệu nghệ sĩ khách mời",
+      "objective": "Tăng sự hào hứng, viral bài đăng",
+      "content": "Clip + quote nghệ sĩ (Phương Mỹ Chi, hoa hậu Nguyễn Thị Yến Nhi, Á hậu 1 Lê Phan Hạnh Nguyên  ) mời sinh viên đến tham dự",
+      "channel": "TikTok, Fanpage chính",
+      "time": "7/6 – 10/6",
+      "lead": "Media Team + Orbis ICT",
+      "kpi": "≥80.000 lượt tiếp cận, ≥5.000 lượt chia sẻ"
+    },
+    {
+      "activity": "Hậu trường công tác chuẩn bị",
+      "objective": "Tăng độ chuyên nghiệp & tạo tin tưởng",
+      "content": "Clip dựng cảnh hậu trường sân khấu, tiết mục sân khấu",
+      "channel": "Fanpage, Tiktok Văn Hiến,",
+      "time": "11/6- 13/6",
+      "lead": "Media Team",
+      "kpi": "≥5.000 lượt tiếp cận , ≥ 300 lượt chia sẻ"
+    },
+    {
+      "activity": "Mở đăng ký tham gia",
+      "objective": "Tăng lượng người tham dự",
+      "content": "Bài viết kèm link form + QR code check- in cá nhân",
+      "channel": "Fanpage Văn Hiến",
+      "time": "13/6- 15/6",
+      "lead": "Media Team",
+      "kpi": "300 lượt đăng ký qua form"
+    },
+    {
+      "activity": "Hướng dẫn check-in + chia khu vực",
+      "objective": "Hạn chế rối loạn trong ngày sự kiện",
+      "content": "Công bố sơ đồ – thời gian – nơi nhận quà",
+      "channel": "Fanpage, Tiktok Văn Hiến",
+      "time": "16/6",
+      "lead": "Media Team",
+      "kpi": "Media Team"
+    },
+    {
+      "activity": "Tạo thiện cảm",
+      "objective": "Clip ngắn: chủ tịch tập đoàn Hùng Hậu gửi lời chào",
+      "content": "",
+      "channel": "Media Team + Orbis ICT",
+      "time": "17/6",
+      "lead": "Media Team",
+      "kpi": "≥ 40.000 lượt tiếp cận, ≥ 3.000 tương tác"
+    }
+  ],
+  "media_during": [
+    {
+      "activity": "Livestream chương trình chín",
+      "objective": "Lan tỏa quy mô – tăng độ nhận diện",
+      "content": "Phát trực tiếp các tiết mục sự kiện",
+      "channel": "Fanpage Văn Hiến & Orbis ICT",
+      "time": "20/6",
+      "lead": "Media team – Kỹ thuật"
+    },
+    {
+      "activity": "Cấp phát livestream riêng cho nhà tài trợ kim cương",
+      "objective": "Tri ân nhà tài trợ – tăng độ tương tác",
+      "content": "Cung cấp đường link livestream riêng có logo nhà tài trợ",
+      "channel": "Phát trực tiếp tại Fanpage nhà tài trợ",
+      "time": "20/6",
+      "lead": "Kỹ thuật"
+    },
+    {
+      "activity": "Cập nhật “Real-time”",
+      "objective": "Gây hiệu ứng lan tỏa trên mạng xã hộ",
+      "content": "Cập nhật hình ảnh, short video và đăng ngay sau phần trình diễn",
+      "channel": "Instagram, Facebook Story Văn Hiến",
+      "time": "20/6",
+      "lead": "Media team"
+    },
+    {
+      "activity": "Phỏng vấn nhanh",
+      "objective": "Tăng tương tác ,cảm xúc người tham gia",
+      "content": "Phỏng vấn 5-7 sinh viên, khách mời về trải nghiệm tại Chương trình",
+      "channel": "TikTok, Facebook Reels Văn Hiến",
+      "time": "20/6",
+      "lead": "Ban nội dung + Media team"
+    }
+  ],
+  "media_post": [
+    {
+      "phase": "A. Cảm ơn và lan tỏa",
+      "time": "20/6 (cuối ngày)",
+      "activity": "Bài cảm ơn đầu tiên",
+      "content": "Ảnh khoảnh khắc nổi bật; lời cảm ơn khách mời, nhà tài trợ, sinh viên.",
+      "channel": "Fanpage VHU; Zalo OA",
+      "lead": "Ban Truyền thông (Nhóm Nội dung, Media)"
+    },
+    {
+      "phase": "A. Cảm ơn và lan tỏa",
+      "time": "21/6",
+      "activity": "Thư cảm ơn và recap",
+      "content": "Bài recap, khoảnh khắc kèm tag tên doanh nghiệp",
+      "channel": "Fanpage VHU",
+      "lead": "Ban Truyền thông"
+    },
+    {
+      "phase": "A. Cảm ơn và lan tỏa",
+      "time": "21–23/6",
+      "activity": "Clip highlight 2–3 phút",
+      "content": "Các video về nội dung đặc sắc; có 1 clip riêng về khoảnh khắc sẻ chia và phần Đờn ca tài tử.",
+      "channel": "Fanpage VHU; TikTok; Facebook Reels",
+      "lead": "Ban Truyền thông (Nhóm Media, Hậu kỳ)"
+    },
+    {
+      "phase": "A. Cảm ơn và lan tỏa",
+      "time": "21/6",
+      "activity": "Báo chí đưa tin",
+      "content": "Gửi thông cáo báo chí và hình ảnh cho báo Pháp Luật Việt Nam và Báo phát thanh và truyền hình Đồng Tháp",
+      "channel": "Báo điện tử",
+      "lead": "Ban Truyền thông; Ban Đối ngoại"
+    },
+    {
+      "phase": "B. Báo cáo kết quả",
+      "time": "25/6 (T+5)",
+      "activity": "Công bố tên đơn vị nhận quyên góp",
+      "content": "Trung tâm Bảo trợ xã hội Tổng hợp tỉnh Đồng Tháp",
+      "channel": "Fanpage VHU",
+      "lead": "Ban Truyền thông; Ban Đối ngoại"
+    },
+    {
+      "phase": "B. Báo cáo kết quả",
+      "time": "25–28/6",
+      "activity": "Bài “Chuyện sau cánh gà”",
+      "content": "Chân dung nghệ nhân, sinh viên và nhóm tổ chức; giữ nhịp nội dung văn hóa Đồng Tháp.",
+      "channel": "Fanpage VHU; TikTok",
+      "lead": "Ban Truyền thông (Nhóm Nội dung)"
+    },
+    {
+      "phase": "C. Bàn giao",
+      "time": "≤ 4/8 (T+45)",
+      "activity": "Bàn giao quyên góp",
+      "content": "Đăng bài báo cáo bàn giao online cho đơn vị tiếp nhận quyên góp",
+      "channel": "Fanpage và báo Pháp luật Việt Nam và báo phát thanh và truyền hình Đồng Tháp",
+      "lead": "Ban Đối ngoại; Ban Truyền thông"
+    }
+  ],
+  "risks_plan": [
+    {
+      "category": "1. PHÁP LÝ & HÀNH CHÍNH",
+      "risk": "Công văn xin phép Sở VHTTDL không được thông qua / chậm phê duyệt",
+      "severity": "Rất cao",
+      "prevention": "-Nộp hồ sơ xin phép biểu diễn & trình diễn thời trang trước ít nhất 20–25 ngày.-Rà soát chặt chẽ các yếu tố liên quan hoặc có thể hay ảnh hưởng đến thuần phong mỹ thuật.",
+      "contingency": "- Trực tiếp làm việc với Bộ phận của Sở VHTTDL để bổ sung hoặc chỉnh sửa hồ sơ trong vòng 24–48h.-Trường hợp tiết mục bị yêu cầu điều chỉnh: Thay thế bằng các tiết mục văn nghệ khác",
+      "team": "Ban Kế hoạch &Ban Đối ngoại"
+    },
+    {
+      "category": "1. PHÁP LÝ & HÀNH CHÍNH",
+      "risk": "Đơn xin địa điểm / Công văn An ninh & PCCC bị từ chối hoặc yêu cầu chỉnh sửa",
+      "severity": "Cao",
+      "prevention": "- Nộp kèm đơn xin sử dụng Tầng 9 & Sảnh Trống Đồng của Ban Quản lý Campus -Gửi Công văn thông báo kèm sơ đồ di chuyển, lối thoát hiểm đến Công an & UBND Xã Bình Hưng đúng quy định.",
+      "contingency": "Trực tiếp gặp Ban Quản lý, Công an địa phương để giải trình phương án an ninh nội bộ\n- Điều chỉnh sơ đồ gian hàng tại Sảnh Trống Đồng để đảm bảo chiều rộng lối đi thoát hiểm theo yêu cầu PCCC.",
+      "team": "Ban Hậu cần &Ban An ninh"
+    },
+    {
+      "category": "2. QUẢN LÝ KHÁCH MỜI & NGHỆ SĨ",
+      "risk": "Talent từ chối ký hợp đồng hoặc thỏa thuận tài",
+      "severity": "Rất cao",
+      "prevention": "Lập sẵn Danh sách Talent dự phòng (Backup Talent List) có cùng phân khúc, tệp khán giả sinh viên và giá trị truyền thông tương đương",
+      "contingency": "khi đàm phán thất bại, kích hoạt liên hệ với Talent trong danh sách dự phòng, chuyển giao kịch bản và thương lượng hợp đồng cấp tốc.",
+      "team": "Ban Đối ngoại &Trưởng Ban Tổ chức"
+    },
+    {
+      "category": "2. QUẢN LÝ KHÁCH MỜI & NGHỆ SĨ",
+      "risk": "Nghệ sĩ / Khách mời VIP thay đổi lịch trình đột xuất trước ngày diễn",
+      "severity": "Cao",
+      "prevention": "-Chỉ công bố hình ảnh nghệ sĩ trên truyền thông sau khi đã nhận văn bản/hợp đồng xác nhận chính thức.-Nhắc lịch và xác nhận lại lịch trình đón tiếp trước 72h, 24h và 2h trước sự kiện.",
+      "contingency": "-Cập nhật thông tin thay đổi trên các kênh chính thức của Trường.-Đẩy phần trình diễn Fashion Show hoặc Giao lưu sinh viên lên trước; chuẩn bị sẵn clip giới thiệu/tư liệu phát trên màn hình LED trong lúc chờ.",
+      "team": "Điều phối VIP &Quản lý Nghệ sĩ"
+    },
+    {
+      "category": "3. SẢN XUẤT & HẬU CẦN",
+      "risk": "Chậm tiến độ thi công Sảnh Trống Đồng và Hội trường Tầng 9",
+      "severity": "Cao",
+      "prevention": "-Ký hợp đồng sản xuất với đơn vị thi công trước ngày 01/06, chốt bản vẽ 3D và kích thước chi tiết.- Giám sát tiến độ thi công tập kết vật tư tại campus từ ngày 18/06.",
+      "contingency": "- Yêu cầu nhà thầu tăng cường nhân sự làm ca đêm ngày 19/06 để hoàn tất trước 06:00 sáng ngày 20/06.",
+      "team": "Ban Hậu cần – Sân khấu"
+    },
+    {
+      "category": "3. SẢN XUẤT & HẬU CẦN",
+      "risk": "Lỗi in ấn ấn phẩm",
+      "severity": "Trung bình",
+      "prevention": "-Duyệt mẫu in thử về màu sắc, kích thước và lỗi chính tả tên Nhà tài trợ trước  khi cho in hàng loạt.-Nhận toàn bộ ấn phẩm/quà tặng trước ngày 16/06.",
+      "contingency": "-Yêu cầu xưởng in cấp tốc bù hàng hư hỏng trong vòng 48h.",
+      "team": "Ban Hậu cần &Ban Truyền thông"
+    },
+    {
+      "category": "4. KĨ THUẬT & QUẢN LÝ ĐĂNG KÝ",
+      "risk": "Hệ thống form đăng ký online lỗi / Email chứa mã QR bị chui vào hòm thư Spam",
+      "severity": "Cao",
+      "prevention": "- Mở link đăng ký trước 7 ngày, kiểm tra form tự động giới hạn đúng 300 lượt.-Gửi email hướng dẫn sinh viên kiểm tra cả hòm thư Spam/Promotions để lấy mã QR.",
+      "contingency": "- Xuất sẵn toàn bộ danh sách sinh viên đăng ký ra file Excel offline.-Bố trí bàn hỗ trợ check-in thủ công bằng MSSV/SĐT ngay tại cổng vào Tầng 9.",
+      "team": "Bộ phận Đón tiếp &Thư ký Kỹ thuật"
+    },
+    {
+      "category": "5. TỔNG DUYỆT",
+      "risk": "Chương trình tổng duyệt bị lố thời lượng",
+      "severity": "Trung bình",
+      "prevention": "- Đo thời lượng từng tiết mục) bằng đồng hồ bấm giờ trong buổi tổng duyệt 19/06.- Thống nhất với MC tín hiệu ngầm cắt hoặc chuyển nội dung khi hết giờ.",
+      "contingency": "- Rút ngắn thời gian phần phát biểu khai mạc hoặc phần hỏi đáp Q&A sinh viên trong kịch bản chính thức.",
+      "team": "Điều phối chương trình &Quản lý sân khấu"
+    },
+    {
+      "category": "5. TỔNG DUYỆT",
+      "risk": "Chập điện sân khấu hoặc không đảm bảo lối thoát hiểm PCCC / Y tế",
+      "severity": "Rất cao",
+      "prevention": "• Tổng kiểm tra tải điện, bình chữa cháy Tầng 9 và thông thoáng cầu thang bộ trong ngày tổng duyệt 19/06.• Bố trí sẵn 2 túi sơ cứu y tế và nhân sự túc trực.",
+      "contingency": "-Tạm ngưng tổng duyệt để kỹ thuật xử lý ngay điểm rò rỉ điện/tải quá mức.-Di dời ngay các thiết bị/standee che chắn lối ra cầu thang bộ.",
+      "team": "Ban An ninh – An toàn &Ban Hậu cần"
+    }
+  ],
+  "risks_event": [
+    {
+      "category": "1. Kỹ thuật - Check-in",
+      "risk": "Nghẽn mạng Wifi/4G hoặc lỗi hệ thống QR Code gây ùn tắc",
+      "severity": "Cao",
+      "prevention": "Kiểm tra đường truyền Internet/Wifi Tầng 9 trước 7:00; xuất sẵn file danh sách sinh viên Excel offline và chuẩn bị 2 máy quét/điện thoại dự phòng.",
+      "contingency": "Chuyển sang check-in thủ công qua danh sách offline bằng MSSV/SĐT; tăng cường 2 nhân sự Lễ tân phân luồng nhanh.",
+      "team": "Bộ phận Đón tiếp – Lễ tân & Kỹ thuật"
+    },
+    {
+      "category": "2. Khách mời - Nghệ sĩ",
+      "risk": "Chủ tịch HĐQT Hunghau Holding đến trễ/bận đột xuất",
+      "severity": "Cao",
+      "prevention": "Xác nhận lịch trình trước 24h và 2h; cử 2 nhân sự Lễ tân đón VIP tại tầng trệt và đưa lên Tầng 9.",
+      "contingency": "Đẩy phần Fashion Show \"Sắc Sen\" (20p) hoặc Giao lưu sinh viên lên trước; chiếu video clip tư liệu Hùng Hậu Group trong lúc chờ.",
+      "team": "Điều phối chương trình & Điều phối VIP"
+    },
+    {
+      "category": "2. Khách mời - Nghệ sĩ",
+      "risk": "Ca sĩ Phương Mỹ Chi hoặc Hoa hậu khách mời đến trễ hoặc gặp sự cố không thể biểu diễn.",
+      "severity": "Cao",
+      "prevention": "Xác nhận lịch diễn, đón nghệ sĩ trước 30 phút tại Tầng 9; bố trí phòng chờ riêng và chuẩn bị sẵn file âm thanh beat nhạc.",
+      "contingency": "Đẩy phần Lễ Tổng kết/Trao hoa tri ân (15p) lên trước; chuyển sang tiết mục dự phòng của nhóm nghệ thuật sinh viên VHU.",
+      "team": "Quản lý nghệ sĩ & tiết mục"
+    },
+    {
+      "category": "3. Giao lưu",
+      "risk": "Hội trường im lặng khi MC kêu gọi mọi người đặt câu hỏi",
+      "severity": "Trung bình",
+      "prevention": "Ban Nội dung chuẩn bị sẵn 5–7 câu hỏi chất lượng về chủ đề chương trình",
+      "contingency": "Sử dụng người của ban tổ chức được chuẩn bị sẵn cho sự cố",
+      "team": "Ban Nội dung, MC, điều phối"
+    },
+    {
+      "category": "4. An toàn - PCCC",
+      "risk": "Cháy chập điện sân khấu, sự cố báo cháy",
+      "severity": "Rất cao",
+      "prevention": "Kiểm tra tải điện sân khấu, bình chữa cháy Tầng 9; kiểm tra lối thoát hiểm cầu thang bộ trước 7:00.",
+      "contingency": "Dừng khẩn cấp chương trình; MC thông báo bình tĩnh; An ninh phối hợp Hậu cần mở cửa thoát hiểm Tầng 9, hướng dẫn đi cầu thang bộ (TUYỆT ĐỐI KHÔNG DÙNG THANG MÁY).",
+      "team": "An ninh – An toàn & Hậu cần – Sân khấu"
+    },
+    {
+      "category": "5. An toàn - Y tế",
+      "risk": "Sinh viên bị té ngã, tụt huyết áp, ngất xỉu hoặc gặp sự cố sức khỏe",
+      "severity": "Trung bình",
+      "prevention": "Giữ lối đi thông thoáng; chuẩn bị 2 túi/hộp sơ cứu y tế dự phòng tại bàn lễ tân đón khách.",
+      "contingency": "Nhân sự an ninh tiến hành sơ cứu tại chỗ; nếu nghiêm trọng, phân công 1 nhân sự chuyển ngay sinh viên xuống tầng trệt bằng thang máy ưu tiên để đi y tế.",
+      "team": "An ninh – An toàn & Hậu cần"
+    },
+    {
+      "category": "6. Truyền thông - Livestream",
+      "risk": "Mất kết nối Livestream trên Fanpage VHU/Orbis ICT hoặc lỗi đường truyền riêng cấp cho NTT Kim Cương; dính bản quyền âm thanh.",
+      "severity": "Trung bình",
+      "prevention": "Kiểm tra đường truyền mạng riêng cho Media; test luồng stream riêng cho NTT Kim Cương; sử dụng nhạc đã xin phép bản quyền/nhạc beat.",
+      "contingency": "Chuyển sang luồng stream dự phòng 4G; khắc phục kĩ thuật trong 3 phút; gửi video Record HD/Recap chất lượng cao cho NTT ngay sau sự kiện.",
+      "team": "Media – Livestream & Kỹ thuật sân khấu"
+    },
+    {
+      "category": "7. Gian hàng - Sảnh Trống Đồng",
+      "risk": "Gây ùn tắc sảnh Trống Đồng / Sự cố an toàn điện tại các gian hàng tài trợ.",
+      "severity": "Trung bình",
+      "prevention": "Bố trí khoảng cách giữa các gian hàng hợp lý; kiểm tra dây điện âm sàn/bọc cách điện an toàn",
+      "contingency": "nhân sự điều phối phân luồng sinh viên di chuyển bớt vào hội trường Tầng 9; ngắt ngay cầu giao gian hàng nếu gặp sự cố điện.",
+      "team": "Điều phối gian hàng tài trợ"
+    },
+    {
+      "category": "8. Kỹ thuật - Thiết bị",
+      "risk": "Mất điện toàn phần hoặc sự cố hư hỏng âm thanh, ánh sáng, màn hình LED Tầng 9.",
+      "severity": "Rất cao",
+      "prevention": "Kiểm tra máy phát điện dự phòng Tầng 9; kiểm tra hệ thống loa, micro, LED, có micro không dây dự phòng.",
+      "contingency": "Chuyển sang hệ thống điện/thiết bị dự phòng; MC nhanh trí điều phối và giao lưu ngắn với khán giả trong thời gian xử lý",
+      "team": "Kỹ thuật sân khấu"
+    },
+    {
+      "category": "8. Kỹ thuật - Thiết bị",
+      "risk": "Màn hình mất tính hiệu",
+      "severity": "Rất cao",
+      "prevention": "Chạy thử tải thiết bị ít nhất 4 ngày 19/06",
+      "contingency": "Bật đèn tập trung sân khấu chính, MC tiếp tục chương trình theo kịch bản không phụ thuộc màn hình",
+      "team": "Kỹ thuật sân khấu"
+    },
+    {
+      "category": "9. An ninh - Cung ứng",
+      "risk": "Sinh viên tập trung quá đông tại cổng hội trường gây mất trật tự hoặc thất lạc tài sản cá nhân.",
+      "severity": "Trung bình",
+      "prevention": "Phân luồng di chuyển từ lối thang máy/thang bộ; thông báo sinh viên tự bảo quản tài sản trên màn hình/loa.",
+      "contingency": "An ninh phối hợp lễ tân mở thêm cửa phụ hội trường; tiếp nhận thông tin tài sản thất lạc tại bàn lễ tân.",
+      "team": "An ninh – An toàn & Đón tiếp – Lễ tân"
+    },
+    {
+      "category": "10. Nội dung - Truyền thông",
+      "risk": "Truyền tải sai thông tin đại biểu, Nhà tài trợ trên Slide/Visual hoặc MC đọc sai tên khách mời VIP.",
+      "severity": "Trung bình",
+      "prevention": "Kiểm duyệt kỹ file Visual, kịch bản dẫn MC và danh sách đại biểu với Ban Tổ chức trước 24h.",
+      "contingency": "MC đính chính khéo léo ngay trên sân khấu; Ban Truyền thông đính chính trên kênh bài viết Fanpage nếu có bài đăng sai.",
+      "team": "Điều phối chương trình & Media – Livestream"
+    }
+  ],
+  "risks_media": [
+    {
+      "category": "A. Nội dung và thông tin",
+      "id": "1",
+      "risk": "Sai sót thông tin (giờ, địa điểm, tên, chức danh khách mời, tên đơn vị)",
+      "severity": "Cao",
+      "prevention": "Lập bảng thông tin gốc thống nhất chức danh, giờ; duyệt 2 cấp (Trưởng ban Truyền thông, Trưởng ban Tổ chức) trước khi đăng bài",
+      "contingency": "Đính chính trong vòng 1 giờ, chỉnh sửa hoặc xóa bài; thông báo lại qua Zalo khoa/email nếu thông tin ảnh hưởng người tham dự",
+      "team": "Ban Truyền thông"
+    },
+    {
+      "category": "A. Nội dung và thông tin",
+      "id": "2",
+      "risk": "Nội dung văn hóa Đồng Tháp sai lệch hoặc nhạy cảm (video, trang phục Fashion Show, hình ảnh Sen)",
+      "severity": "Cao",
+      "prevention": "Xác minh nội dung với Sở VHTTDL hoặc cố vấn văn hóa; duyệt kịch bản video và thiết kế trang phục trước khi sản xuất",
+      "contingency": "Chỉnh sửa hoặc gỡ nội dung ngay; đính chính ngắn gọn, giữ thái độ cầu thị",
+      "team": "Ban Kế hoạch; Ban Truyền thông"
+    },
+    {
+      "category": "A. Nội dung và thông tin",
+      "id": "3",
+      "risk": "Phát ngôn hoặc hình ảnh gây tranh cãi từ khách mời Chủ tịch HungHau",
+      "severity": "Cao",
+      "prevention": "Trao đổi với khách mời và MC trước chương trình; chọn lọc câu hỏi Q&A trước; MC có sẵn câu chuyển hướng",
+      "contingency": "Cắt phần gây tranh cãi khỏi video recap và bản ghi; BTC trao đổi với khách mời; ra thông báo chính thức nếu cần",
+      "team": "MC; Ban Kế hoạch; Trưởng ban Tổ chức"
+    },
+    {
+      "category": "A. Nội dung và thông tin",
+      "id": "4",
+      "risk": "Nội dung bị nhìn nhận thiên về quảng bá cá nhân hoặc doanh nghiệp, lệch thông điệp giáo dục – văn hóa cá nhân",
+      "severity": "Trung bình",
+      "prevention": "Dựng thông điệp xoay quanh văn hóa, sinh viên và kết nối nhà trường–doanh nghiệp; cân đối tỷ lệ nội dung văn hóa và nội dung nhà tài trợ; tránh ngôn từ ca ngợi",
+      "contingency": "Điều chỉnh nội dung các bài tiếp theo; bổ sung nội dung về sinh viên và văn hóa để cân bằng",
+      "team": "Ban Truyền thông; Trưởng ban Tổ chức"
+    },
+    {
+      "category": "B. Đăng kí và tiếp cận",
+      "id": "6",
+      "risk": "Link đăng ký, mã QR hoặc email xác nhận lỗi (quá tải, vào spam, không nhận được)",
+      "severity": "Cao",
+      "prevention": "Chạy thử form và QR trước 3 ngày; mỗi sinh viên một đăng ký (kiểm tra mã số sinh viên); gửi QR dự phòng qua Zalo khoa; lập danh sách check-in thủ công",
+      "contingency": "Mở lại link hoặc form dự phòng; gửi lại QR; bàn hỗ trợ check-in thủ công tại cổng",
+      "team": "Ban Truyền thông; Ban Vận hành (Nhóm Check-in & Điều phối)"
+    },
+    {
+      "category": "B. Đăng kí và tiếp cận",
+      "id": "7",
+      "risk": "Số đăng ký không cân đối với 300 chỗ: quá ít, vắng mặt cao hoặc quá tải",
+      "severity": "Cao",
+      "prevention": "Mở đăng ký sớm hơn kế hoạch hiện tại; lập danh sách chờ; nhắc lịch trước 48 giờ và 24 giờ; nêu rõ thể lệ ưu tiên và thông báo khi hết chỗ",
+      "contingency": "Gọi danh sách chờ bổ sung; mời sinh viên xem livestream khi hết chỗ; chuẩn bị chỗ dự phòng nếu hội trường cho phép",
+      "team": "Ban Truyền thông; Ban Vận hành"
+    },
+    {
+      "category": "B. Đăng kí và tiếp cận",
+      "id": "8",
+      "risk": "Mức tiếp cận thấp hơn KPI (reach, views, tương tác)",
+      "severity": "Trung bình",
+      "prevention": "Phối hợp CLB, nhóm cộng đồng sinh viên, Zalo khoa, kênh Orbis ICT và đối tác để lan tỏa; theo dõi số liệu hằng ngày; đặt mốc kiểm tra tại các thời điểm 3 ngày, 7 ngày trước sự kiện",
+      "contingency": "Tăng ngân sách quảng cáo, đẩy thêm nội dung, nhờ khách mời và đối tác chia sẻ; chỉ cam kết với nhà tài trợ các KPI có cơ sở",
+      "team": "Ban Truyền thông (Nhóm Media)"
+    },
+    {
+      "category": "B. Đăng kí và tiếp cận",
+      "id": "9",
+      "risk": "Thông tin sai hoặc link đăng ký giả lan truyền (tin hủy sự kiện, thu phí, link mạo danh)",
+      "severity": "Trung bình",
+      "prevention": "Ghim thông báo \"chỉ đăng ký qua link trên Fanpage Trường ĐH Văn Hiến\"",
+      "contingency": "Đăng cảnh báo, báo cáo link giả với nền tảng, thông báo qua Zalo khoa",
+      "team": "Ban Truyền thông"
+    },
+    {
+      "category": "C. Kênh và kỹ thuật",
+      "id": "10",
+      "risk": "Tài khoản hoặc kênh bị khóa, mất quyền, tấn công, lỗi nền tảng (Fanpage, TikTok, kênh Orbis ICT)",
+      "severity": "Cao",
+      "prevention": "Tối thiểu 2 quản trị viên mỗi kênh; bật xác thực 2 lớp; lưu bản gốc nội dung; có kênh dự phòng (Zalo khoa, Portal)",
+      "contingency": "Chuyển thông báo sang kênh dự phòng; báo nền tảng để khôi phục",
+      "team": "Ban Truyền thông"
+    },
+    {
+      "category": "C. Kênh và kỹ thuật",
+      "id": "11",
+      "risk": "Thiếu hình hoặc video trong ngày (hỏng máy, bỏ lỡ khoảnh khắc, thiếu nhân sự)",
+      "severity": "Trung bình",
+      "prevention": "Phân công ekip theo kịch bản (shot list); có máy dự phòng; quay nhiều góc; sao lưu thẻ nhớ ngay trong ngày",
+      "contingency": "Dùng nguồn ảnh và video từ CLB và đối tác; ưu tiên khoảnh khắc nhà tài trợ và khách mời",
+      "team": "Ban Truyền thông (Nhóm Media, Hậu kỳ)"
+    },
+    {
+      "category": "C. Kênh và kỹ thuật",
+      "id": "12",
+      "risk": "Chậm tiến độ sản xuất nội dung (teaser, key visual, clip khách mời) do chờ duyệt hoặc thu hình",
+      "severity": "Trung bình",
+      "prevention": "Lịch sản xuất xong trước lịch đăng 3–5 ngày; duyệt tối đa 24–48 giờ; thu hình khách mời sớm; có kho nội dung dự phòng",
+      "contingency": "Ưu tiên nội dung cốt lõi, rút gọn hoặc đổi sang dạng bài ảnh",
+      "team": "Ban Truyền thông (Nhóm Nội dung, Thiết kế)"
+    },
+    {
+      "category": "D. Pháp lý và dữ liệu",
+      "id": "13",
+      "risk": "Vi phạm bản quyền nhạc và hình ảnh (video bị gỡ, livestream bị tắt tiếng)",
+      "severity": "Trung bình",
+      "prevention": "Dùng nhạc có giấy phép; hỏi đơn vị quản lý nghệ sĩ về quyền livestream và đăng video phần biểu diễn; kiểm tra nguồn hình ảnh",
+      "contingency": "Thay nhạc, đăng lại; gửi khiếu nại nếu bị gỡ nhầm",
+      "team": "Ban Truyền thông (Nhóm Hậu kỳ); Ban Đối ngoại (Nhóm Nghệ sĩ)"
+    },
+    {
+      "category": "D. Pháp lý và dữ liệu",
+      "id": "14",
+      "risk": "Quyền hình ảnh và dữ liệu cá nhân (form đăng ký, QR, email, phỏng vấn, quay sinh viên)",
+      "severity": "Cao",
+      "prevention": "Có điều khoản đồng ý trong form (thu thập, sử dụng hình ảnh); biển thông báo quay chụp tại cổng; khu vực không lên hình; chỉ thu dữ liệu cần thiết, giới hạn người truy cập; chỉ chia sẻ dữ liệu cho nhà tài trợ khi sinh viên đồng ý",
+      "contingency": "Gỡ hình hoặc video ngay khi có yêu cầu, phản hồi trong 24 giờ; ghi nhận sự cố",
+      "team": "Ban Truyền thông; Ban Kế hoạch"
+    },
+    {
+      "category": "E. Đối tác và nhà tài trợ",
+      "id": "16",
+      "risk": "Quyền lợi nhà tài trợ hiển thị sai hoặc thiếu (sai logo, thiếu tag, sai thứ hạng, quên cảm ơn)",
+      "severity": "Cao",
+      "prevention": "Lập bảng đối chiếu quyền lợi theo từng gói; nhà tài trợ duyệt logo và vị trí trước 3–5 ngày; checklist trước khi đăng; dùng bộ nhận diện chuẩn",
+      "contingency": "Sửa hoặc đăng bổ sung trong 24 giờ; ghi vào báo cáo; bù quyền lợi tương ứng nếu cần",
+      "team": "Ban Đối ngoại (Nhóm Nhà tài trợ); Ban Truyền thông"
+    },
+    {
+      "category": "E. Đối tác và nhà tài trợ",
+      "id": "17",
+      "risk": "Đối tác truyền thông (Orbis ICT)",
+      "severity": "Trung bình",
+      "prevention": "Thỏa thuận văn bản về thời hạn, nội dung, số bài; gửi thông cáo báo chí và bộ ảnh sớm; có phương án báo dự phòng",
+      "contingency": "Tự đăng trên kênh sở hữu; liên hệ báo khác; làm việc lại với đối tác",
+      "team": "Ban Đối ngoại; Ban Truyền thông"
+    },
+    {
+      "category": "E.Quyên qóp",
+      "id": "18",
+      "risk": "Lợi nhuận thấp hoặc không có lợi nhuận",
+      "severity": "Trung bình",
+      "prevention": "Theo dõi thu–chi hằng tuần; cam kết theo “lợi nhuận”, không theo số cố định; đặt mốc quyết định cắt giảm chi.",
+      "contingency": "Công bố đúng thực tế; không bù từ nguồn khác mà không giải thích.",
+      "team": "Nhóm ngân sách và hành chính"
+    },
+    {
+      "category": "E.Quyên qóp",
+      "id": "19",
+      "risk": "Số liệu sai hoặc lệch giữa các bài đăng",
+      "severity": "Trung bình",
+      "prevention": "Một bảng số liệu gốc, đánh số phiên bản; duyệt hai cấp (Phòng Tài chính, Trưởng ban Truyền thông).",
+      "contingency": "Ghi rõ phiên bản.",
+      "team": "Nhóm ngân sách và hành chính, Ban Truyền thông"
+    },
+    {
+      "category": "E.Quyên qóp",
+      "id": "20",
+      "risk": "Chậm công bố hoặc chậm bàn giao",
+      "severity": "Trung bình",
+      "prevention": "Mốc có người phụ trách; nhắc trước 5 ngày.",
+      "contingency": "Thông báo lý do và ngày mới.",
+      "team": "Ban Truyền thông"
+    },
+    {
+      "category": "E.Quyên qóp",
+      "id": "21",
+      "risk": "Lộ thông tin hoặc hình ảnh người thụ hưởng",
+      "severity": "Thấp",
+      "prevention": "Không đăng ảnh hoặc thông tin cá nhân khi chưa có chấp thuận của họ và đơn vị nhận.",
+      "contingency": "Gỡ ngay khi có yêu cầu.",
+      "team": "Ban Truyền thông"
+    }
+  ],
+  "kpis": [
+    {
+      "group": "A. Tiếp cận và nhận biết (trước sự kiện)",
+      "id": "1",
+      "metric": "Tiếp cận duy nhất toàn chiến dịch (không cộng gộp theo bài)",
+      "target": "≥100.000",
+      "deadline": "19/6/2027 (T-1)",
+      "source": "Meta Business Suite, TikTok Analytics"
+    },
+    {
+      "group": "A. Tiếp cận và nhận biết (trước sự kiện)",
+      "id": "2",
+      "metric": "Lượt xem video trước sự kiện (teaser, khách mời, hậu trường, lời chào)",
+      "target": "≥50.000",
+      "deadline": "19/6/2027 (T-1)",
+      "source": "Số liệu nền tảng"
+    },
+    {
+      "group": "A. Tiếp cận và nhận biết (trước sự kiện)",
+      "id": "3",
+      "metric": "Tỷ lệ tương tác trung bình các bài chính",
+      "target": "≥10% số tiếp cận",
+      "deadline": "19/6/2027 (T-1)",
+      "source": "Meta Business Suite"
+    },
+    {
+      "group": "A. Tiếp cận và nhận biết (trước sự kiện)",
+      "id": "4",
+      "metric": "Bài giới thiệu khách mời (Phương Mỹ Chi, 2 Hoa hậu)",
+      "target": "≥80.000 tiếp cận",
+      "deadline": "17/6/2027 (7 ngày sau bài đăng cuối 10/6)",
+      "source": "Meta, TikTok"
+    },
+    {
+      "group": "B. Đăng ký và tham dự",
+      "id": "5",
+      "metric": "Số lượt đăng ký",
+      "target": ">300 (120% chỗ, có danh sách chờ)",
+      "deadline": "15/6/2027 (đóng đăng ký)",
+      "source": "Form đăng ký"
+    },
+    {
+      "group": "B. Đăng ký và tham dự",
+      "id": "6",
+      "metric": "Tỷ lệ lấp đầy chỗ ngày sự kiện",
+      "target": "≥95% (≥285/300 người)",
+      "deadline": "20/6/2027, tính đến 8:10",
+      "source": "Dữ liệu check-in"
+    },
+    {
+      "group": "B. Đăng ký và tham dự",
+      "id": "7",
+      "metric": "Tỷ lệ check-in bằng QR không lỗi",
+      "target": "≥98%",
+      "deadline": "20/6/2027, khung 7:00–8:10",
+      "source": "Nhóm Check-in & Điều phối"
+    },
+    {
+      "group": "C. Trong sự kiện (20/6)",
+      "id": "8",
+      "metric": "Lượt xem livestream tích lũy (Fanpage VHU, Orbis ICT, luồng nhà tài trợ)",
+      "target": "≥40.000",
+      "deadline": "23/6/2027 (T+3)",
+      "source": "Báo cáo livestream"
+    },
+    {
+      "group": "C. Trong sự kiện (20/6)",
+      "id": "9",
+      "metric": "Người xem đồng thời cao nhất",
+      "target": "≥10.000",
+      "deadline": "20/6/2027, trong chương trình",
+      "source": "Báo cáo livestream"
+    },
+    {
+      "group": "C. Trong sự kiện (20/6)",
+      "id": "10",
+      "metric": "Thời gian gián đoạn livestream (kể cả quảng cáo nhà tài trợ)",
+      "target": "≤2 phút",
+      "deadline": "20/6/2027, trong chương trình",
+      "source": "Nhật ký kỹ thuật"
+    },
+    {
+      "group": "C. Trong sự kiện (20/6)",
+      "id": "11",
+      "metric": "Nội dung real-time (post, story, Reels)",
+      "target": "≥20",
+      "deadline": "20/6/2027, trong ngày",
+      "source": "Đếm nội dung đã đăng"
+    },
+    {
+      "group": "C. Trong sự kiện (20/6)",
+      "id": "12",
+      "metric": "Clip phỏng vấn nhanh",
+      "target": "5–7 người",
+      "deadline": "21/6/2027 (T+1)",
+      "source": "Đếm nội dung đã đăng"
+    },
+    {
+      "group": "C. Trong sự kiện (20/6)",
+      "id": "13",
+      "metric": "Bài đăng của người tham dự kèm #ChamMotSacSen",
+      "target": "≥250",
+      "deadline": "23/6/2027 (T+3)",
+      "source": "Tìm kiếm hashtag"
+    },
+    {
+      "group": "D. Sau sự kiện (21–23/6)",
+      "id": "14",
+      "metric": "Bài recap và thư cảm ơn (21/6)",
+      "target": "≥25.000 tiếp cận",
+      "deadline": "28/6/2027 (T+8)",
+      "source": "Meta Business Suite"
+    },
+    {
+      "group": "D. Sau sự kiện (21–23/6)",
+      "id": "15",
+      "metric": "Clip highlight 2–3 phút",
+      "target": "≥3 clip; ≥30.000 lượt xem",
+      "deadline": "30/6/2027 (T+10)",
+      "source": "Số liệu nền tảng"
+    },
+    {
+      "group": "D. Sau sự kiện (21–23/6)",
+      "id": "16",
+      "metric": "Tổng lượt xem video toàn chiến dịch",
+      "target": "≥100.000",
+      "deadline": "30/6/2027 (T+10)",
+      "source": "Tổng hợp các nền tảng"
+    },
+    {
+      "group": "D. Sau sự kiện (21–23/6)",
+      "id": "17",
+      "metric": "Báo chí đưa tin",
+      "target": "≥2 bài",
+      "deadline": "23/6/2027 (T+3)",
+      "source": "Theo dõi báo"
+    },
+    {
+      "group": "D. Sau sự kiện (21–23/6)",
+      "id": "18",
+      "metric": "Thư cảm ơn và quà gửi khách VIP và người tham dự",
+      "target": "100% trong 3 ngày",
+      "deadline": "23/6/2027 (T+3)",
+      "source": "Danh sách gửi"
+    },
+    {
+      "group": "E. Chất lượng và đối tác",
+      "id": "19",
+      "metric": "Mức hài lòng của sinh viên",
+      "target": "≥90%",
+      "deadline": "27/6/2027 (T+7, đóng khảo sát)",
+      "source": "Khảo sát sau sự kiện"
+    },
+    {
+      "group": "E. Chất lượng và đối tác",
+      "id": "20",
+      "metric": "Tỷ lệ sinh viên phản hồi khảo sát",
+      "target": "≥70% (≥210 phản hồi)",
+      "deadline": "27/6/2027 (T+7, đóng khảo sát)",
+      "source": "Khảo sát sau sự kiện"
+    },
+    {
+      "group": "E. Chất lượng và đối tác",
+      "id": "21",
+      "metric": "Mức nhớ thông điệp (trả lời đúng ≥2 nét văn hóa Đồng Tháp)",
+      "target": "≥75%",
+      "deadline": "27/6/2027 (T+7, đóng khảo sát)",
+      "source": "Khảo sát sau sự kiện"
+    },
+    {
+      "group": "E. Chất lượng và đối tác",
+      "id": "22",
+      "metric": "Quyền lợi truyền thông nhà tài trợ được thực hiện",
+      "target": "100%",
+      "deadline": "28/6/2027 (T+8, gửi báo cáo quyền lợi)",
+      "source": "Bảng đối chiếu quyền lợi"
+    },
+    {
+      "group": "E. Chất lượng và đối tác",
+      "id": "23",
+      "metric": "Nhà tài trợ sẵn sàng đồng hành lần sau",
+      "target": "≥80%",
+      "deadline": "2/7/2027 (T+12)",
+      "source": "Khảo sát nhà tài trợ"
+    },
+    {
+      "group": "F. Công khai, minh bạch quyên góp",
+      "id": "24",
+      "metric": "Công bố tên đơn vị nhận đúng ngày",
+      "target": "25/6 (T+5)",
+      "deadline": "25/6/2027 (T+5)",
+      "source": "Fanpage VHU"
+    },
+    {
+      "group": "F. Công khai, minh bạch quyên góp",
+      "id": "25",
+      "metric": "Bài công bố tên đơn vị nhận",
+      "target": "≥20.000 tiếp cận",
+      "deadline": "2/7/2027 (7 ngày sau bài đăng)",
+      "source": "Meta Business Suite"
+    },
+    {
+      "group": "F. Công khai, minh bạch quyên góp",
+      "id": "26",
+      "metric": "Bài công bố báo cáo chính thức",
+      "target": "≥15.000 tiếp cận",
+      "deadline": "27/7/2027 (7 ngày sau bài đăng 20/7)",
+      "source": "Meta Business Suite"
+    },
+    {
+      "group": "F. Công khai, minh bạch quyên góp",
+      "id": "27",
+      "metric": "Khoản chi có chứng từ hợp lệ; nhà tài trợ xác nhận số liệu liên quan",
+      "target": "100%",
+      "deadline": "9/7/2027 (hoàn tất chứng từ); 20/7/2027 (nhà tài trợ xác nhận)",
+      "source": "Phòng Tài chính"
+    },
+    {
+      "group": "F. Công khai, minh bạch quyên góp",
+      "id": "28",
+      "metric": "Bàn giao có biên bản và xác nhận từ đơn vị nhận",
+      "target": "≤45 ngày",
+      "deadline": "4/8/2027 (T+45)",
+      "source": "Biên bản bàn giao"
+    },
+    {
+      "group": "F. Công khai, minh bạch quyên góp",
+      "id": "29",
+      "metric": "Phản hồi thắc mắc công khai",
+      "target": "≤24 giờ làm việc",
+      "deadline": "Liên tục, từ 1/6/2027 đến 18/9/2027",
+      "source": "Nhật ký phản hồi"
+    }
+  ],
+  "budget_groups": [
+    {
+      "code": "A",
+      "name": "A. ĐỊA ĐIỂM – DÀN DỰNG",
+      "items": [
+        {
+          "name": "A.1 Thuê mặt bằng Hội trường Trần Hưng Đạo",
+          "quantity": "2",
+          "unit": "Ngày",
+          "unit_price": "0 đ",
+          "total_price": "0 đ",
+          "notes": "Sử dụng CSVC sẵn có của Nhà trường, không phát sinh chi phí."
+        },
+        {
+          "name": "A.2 Trang trí không gian",
+          "quantity": "1",
+          "unit": "Gói",
+          "unit_price": "5.000.000 đ",
+          "total_price": "5.400.000 đ",
+          "notes": "Tiểu cảnh trang trí"
+        },
+        {
+          "name": "A.3 Phòng chờ / backstage",
+          "quantity": "1",
+          "unit": "Gói",
+          "unit_price": "0 đ",
+          "total_price": "0 đ",
+          "notes": "Sử dụng phòng chức năng sẵn có của Nhà trường."
+        },
+        {
+          "name": "A.4 Booth tài trợ",
+          "quantity": "4",
+          "unit": "Booth",
+          "unit_price": "2.500.000 đ",
+          "total_price": "10.800.000 đ",
+          "notes": "3mx3m"
+        },
+        {
+          "name": "A.5 Góc Khát vọng VHU",
+          "quantity": "1",
+          "unit": "Gói",
+          "unit_price": "1.500.000 đ",
+          "total_price": "1.620.000 đ",
+          "notes": "Thiết kế mô hình check-in cùng sự kiện"
+        }
+      ],
+      "subtotal": "17.820.000 đ"
+    },
+    {
+      "code": "B",
+      "name": "B. ÂM THANH – ÁNH SÁNG – TRÌNH CHIẾU",
+      "items": [
+        {
+          "name": "B.1 Hệ thống âm thanh (Loa, amply, micro cao cấp)",
+          "quantity": "1",
+          "unit": "Gói",
+          "unit_price": "0 đ",
+          "total_price": "0 đ",
+          "notes": "Sử dụng hệ thống CSVC sẵn có của Trường."
+        },
+        {
+          "name": "B.2 Hệ thống ánh sáng (Par LED, Moving Head, DMX)",
+          "quantity": "1",
+          "unit": "Gói",
+          "unit_price": "0 đ",
+          "total_price": "0 đ",
+          "notes": "Sử dụng hệ thống CSVC sẵn có của Trường."
+        },
+        {
+          "name": "B.3 Màn hình LED và máy chiếu lớn",
+          "quantity": "1",
+          "unit": "Gói",
+          "unit_price": "0 đ",
+          "total_price": "0 đ",
+          "notes": "Sử dụng hệ thống CSVC sẵn có của Trường."
+        }
+      ],
+      "subtotal": "0 đ"
+    },
+    {
+      "code": "C",
+      "name": "C. ẤN PHẨM",
+      "items": [
+        {
+          "name": "C.1 Passport Sen",
+          "quantity": "350",
+          "unit": "Cuốn",
+          "unit_price": "4.286 đ",
+          "total_price": "1.620.108 đ",
+          "notes": "In màu chất lượng cao"
+        },
+        {
+          "name": "C.2 Thiết kế và in standee",
+          "quantity": "1",
+          "unit": "Gói",
+          "unit_price": "4.000.000 đ",
+          "total_price": "4.320.000 đ",
+          "notes": "In ấn quảng bá và truyền thông"
+        },
+        {
+          "name": "C.3 Khung standee",
+          "quantity": "5",
+          "unit": "Khung",
+          "unit_price": "40.000 đ",
+          "total_price": "216.000 đ",
+          "notes": "Tận dụng khung sắt sẵn có của Trường."
+        },
+        {
+          "name": "C.4 Thẻ staff",
+          "quantity": "33",
+          "unit": "thẻ",
+          "unit_price": "5.000 đ",
+          "total_price": "170.000 đ",
+          "notes": "Ban tổ chức"
+        },
+        {
+          "name": "C.5 In ấn kịch bản chương trình",
+          "quantity": "15",
+          "unit": "Bộ",
+          "unit_price": "7.500 đ",
+          "total_price": "121.500 đ",
+          "notes": "Các kịch bản phục vụ chương trình"
+        }
+      ],
+      "subtotal": "6.447.608 đ"
+    },
+    {
+      "code": "D",
+      "name": "D. TRUYỀN THÔNG",
+      "items": [
+        {
+          "name": "D.1 Quay phim – chụp ảnh – livestream",
+          "quantity": "1",
+          "unit": "Gói",
+          "unit_price": "0đ",
+          "total_price": "0đ",
+          "notes": "Phối hợp CLB Truyền thông và sự kiện;  nhà tài trợ truyền thông"
+        },
+        {
+          "name": "D.2 Đăng bài báo PR sự kiện",
+          "quantity": "2",
+          "unit": "Bài",
+          "unit_price": "5.000.000 đ",
+          "total_price": "10.800.000 đ",
+          "notes": "- Báo pháp luật Việt Nam - Báo phát thanh và truyền hình Đồng Tháp"
+        },
+        {
+          "name": "D.4 Chi phí chạy quảng cáo",
+          "quantity": "1",
+          "unit": "gói",
+          "unit_price": "20.000.000đ",
+          "total_price": "21.600.000đ",
+          "notes": "- Sử dụng nên nền tảng facebook"
+        }
+      ],
+      "subtotal": "32.400.000đ"
+    },
+    {
+      "code": "E",
+      "name": "E. NGHỆ THUẬT – NỘI DUNG SÂN KHẤU",
+      "items": [
+        {
+          "name": "E.3 Nhóm nghệ nhân đờn ca tài tử",
+          "quantity": "5",
+          "unit": "Nghệ sĩ",
+          "unit_price": "1.200.000 đ",
+          "total_price": "6.480.000 đ",
+          "notes": "Biểu diễn nghệ thuật truyền thống Nam Bộ."
+        },
+        {
+          "name": "E.4 Mascot VHU",
+          "quantity": "1",
+          "unit": "Con",
+          "unit_price": "0 đ",
+          "total_price": "0 đ",
+          "notes": "Sử dụng bộ Mascot có sẵn của Nhà trường."
+        },
+        {
+          "name": "E.5 Mascot Bé Sen",
+          "quantity": "1",
+          "unit": "Con",
+          "unit_price": "1.500.000 đ",
+          "total_price": "1.620.000 đ",
+          "notes": "Mascot Bé Sen phục vụ chủ đề sự kiện."
+        },
+        {
+          "name": "E.6 Tiết mục biểu diễn sinh viên",
+          "quantity": "1",
+          "unit": "Gói",
+          "unit_price": "0 đ",
+          "total_price": "0 đ",
+          "notes": "CLB Văn nghệ và CLB thời trang"
+        },
+        {
+          "name": "E.7 Trang phục biểu diễn",
+          "quantity": "1",
+          "unit": "Gói",
+          "unit_price": "0 đ",
+          "total_price": "0 đ",
+          "notes": "Được Nhà tài trợ hỗ trợ đài thọ 100%."
+        },
+        {
+          "name": "E.8 Đạo cụ biểu diễn",
+          "quantity": "1",
+          "unit": "Gói",
+          "unit_price": "0 đ",
+          "total_price": "0 đ",
+          "notes": "Được Nhà tài trợ hỗ trợ đài thọ 100%."
+        },
+        {
+          "name": "D.3 Confetti / giấy kim tuyến",
+          "quantity": "20",
+          "unit": "Bộ",
+          "unit_price": "25.000 đ",
+          "total_price": "540.000 đ",
+          "notes": "Phục vụ khoảnh khắc cao trào sự kiện."
+        }
+      ],
+      "subtotal": "8.640.000 đ"
+    },
+    {
+      "code": "F",
+      "name": "F. KHÁCH MỜI – ĐÓN TIẾP & TRI ÂN",
+      "items": [
+        {
+          "name": "F.1 Chủ tịch Hùng Hậu Trần Văn Hậu",
+          "quantity": "1",
+          "unit": "Người",
+          "unit_price": "0 đ",
+          "total_price": "0 đ",
+          "notes": "Khách mời danh dự."
+        },
+        {
+          "name": "F.4 Bà Nguyễn Thị Uyên Trang",
+          "quantity": "1",
+          "unit": "Người",
+          "unit_price": "0 đ",
+          "total_price": "0 đ",
+          "notes": "Khách mời đại biểu Tỉnh Đồng Tháp."
+        },
+        {
+          "name": "F.2 Hoa hậu Nguyễn Thị Yến Nhi",
+          "quantity": "1",
+          "unit": "Người",
+          "unit_price": "2.000.000 đ",
+          "total_price": "2.160.000 đ",
+          "notes": "Hỗ trợ di chuyển và công tác phí."
+        },
+        {
+          "name": "E.2 Ca sĩ Phương Mỹ Chi",
+          "quantity": "1",
+          "unit": "Người",
+          "unit_price": "5.000.000 đ",
+          "total_price": "5.400.000 đ",
+          "notes": "Hỗ trợ chi phí đi lại và công tác phí."
+        },
+        {
+          "name": "F.3 Á hậu Lê Phan Hạnh Nguyên",
+          "quantity": "1",
+          "unit": "Người",
+          "unit_price": "2.000.000 đ",
+          "total_price": "2.160.000 đ",
+          "notes": "Hỗ trợ  di chuyển và công tác phí."
+        },
+        {
+          "name": "E.1 MC Lê Thị Ngọc Ánh",
+          "quantity": "1",
+          "unit": "Người",
+          "unit_price": "1.000.000 đ",
+          "total_price": "1.080.000 đ",
+          "notes": "Dẫn dắt và điều phối kịch bản chương trình."
+        }
+      ],
+      "subtotal": "10.800.000 đ"
+    },
+    {
+      "code": "G",
+      "name": "G. QUÀ TẶNG",
+      "items": [
+        {
+          "name": "G.1 Khăn bandana quà tặng (50x50cm)",
+          "quantity": "320",
+          "unit": "Cái",
+          "unit_price": "20.000 đ",
+          "total_price": "6.912.000 đ",
+          "notes": "Quà tặng  cho sinh viên tham dự"
+        },
+        {
+          "name": "G.2 Kỷ niệm chương sự kiện",
+          "quantity": "5",
+          "unit": "Cái",
+          "unit_price": "300.000 đ",
+          "total_price": "1.620.000 đ",
+          "notes": "Tặng VIP, đại biểu danh dự & Nhà tài trợ."
+        },
+        {
+          "name": "G.3 Hoa tươi",
+          "quantity": "12",
+          "unit": "Bó",
+          "unit_price": "175.000 đ",
+          "total_price": "2.268.000 đ",
+          "notes": "Tặng VIP, đại biểu danh dự & Nhà tài trợ."
+        },
+        {
+          "name": "G.4 Thư cảm ơn nhà tài trợ",
+          "quantity": "11",
+          "unit": "Bức",
+          "unit_price": "10.000 đ",
+          "total_price": "118.800 đ",
+          "notes": "Tặng VIP, đại biểu danh dự & Nhà tài trợ."
+        },
+        {
+          "name": "G5. Gấu bông",
+          "quantity": "5",
+          "unit": "con",
+          "unit_price": "0đ",
+          "total_price": "0đ",
+          "notes": "Quà tặng  cho sinh viên tham gia đặt câu hỏi"
+        }
+      ],
+      "subtotal": "10.918.800 đ"
+    },
+    {
+      "code": "H",
+      "name": "H. HẬU CẦN – AN TOÀN – VỆ SINH – Y TẾ",
+      "items": [
+        {
+          "name": "H.1 Phương án PCCC – CNCH",
+          "quantity": "1",
+          "unit": "Gói",
+          "unit_price": "0 đ",
+          "total_price": "0 đ",
+          "notes": "Sử dụng phương án & thiết bị PCCC sẵn có của Trường."
+        },
+        {
+          "name": "H.2 Bảo vệ – an ninh sự kiện",
+          "quantity": "1",
+          "unit": "Gói",
+          "unit_price": "0 đ",
+          "total_price": "0 đ",
+          "notes": "Sử dụng lực lượng bảo vệ nội bộ Trường."
+        },
+        {
+          "name": "H.3 Kiểm tra điện & nguồn dự phòng",
+          "quantity": "1",
+          "unit": "Gói",
+          "unit_price": "0 đ",
+          "total_price": "0 đ",
+          "notes": "Kiểm tra hệ thống và nguồn điện dự phòng Trường."
+        },
+        {
+          "name": "H.4 Biển chỉ dẫn phân luồng",
+          "quantity": "1",
+          "unit": "Gói",
+          "unit_price": "0 đ",
+          "total_price": "0 đ",
+          "notes": "Bố trí biển chỉ dẫn hướng dẫn sơ đồ sự kiện."
+        },
+        {
+          "name": "H.5 Bãi xe & điều phối giao thông",
+          "quantity": "1",
+          "unit": "Gói",
+          "unit_price": "0 đ",
+          "total_price": "0 đ",
+          "notes": "Sử dụng bãi xe & nhân sự điều phối của Trường."
+        },
+        {
+          "name": "H.6 Vật tư vệ sinh, thu gom rác",
+          "quantity": "1",
+          "unit": "Gói",
+          "unit_price": "2.000.000 đ",
+          "total_price": "2.160.000 đ",
+          "notes": "Thuê nhân công vệ sinh & vật tư thu gom rác."
+        },
+        {
+          "name": "H.7 Túi y tế sơ cứu",
+          "quantity": "1",
+          "unit": "Gói",
+          "unit_price": "1.000.000 đ",
+          "total_price": "1.080.000 đ",
+          "notes": "Trang bị vật tư sơ cứu y tế khẩn cấp."
+        }
+      ],
+      "subtotal": "3.240.000 đ"
+    },
+    {
+      "code": "I",
+      "name": "I. PHỤC VỤ – ĂN UỐNG – NƯỚC UỐNG",
+      "items": [
+        {
+          "name": "I.1 Nước Aquafina 350ml",
+          "quantity": "2",
+          "unit": "Thùng",
+          "unit_price": "100.000 đ",
+          "total_price": "216.000 đ",
+          "notes": "Dung tích 350ml"
+        },
+        {
+          "name": "I.2 Suất ăn nhẹ",
+          "quantity": "33",
+          "unit": "Suất",
+          "unit_price": "25.000 đ",
+          "total_price": "891.000 đ",
+          "notes": "Phục vụ BTC"
+        },
+        {
+          "name": "I.3 Lưu trú, ăn uống khách, đi lại phương xa",
+          "quantity": "1",
+          "unit": "Gói",
+          "unit_price": "3.000.000 đ",
+          "total_price": "3.240.000 đ",
+          "notes": "Lưu trú Khách sạn Phú Mỹ Harbor"
+        },
+        {
+          "name": "K.1 Chi phí dự phòng phát sinh (10%)",
+          "quantity": "",
+          "unit": "",
+          "unit_price": "",
+          "total_price": "9.461.340 đ",
+          "notes": ""
+        }
+      ],
+      "subtotal": "9.461.340 đ"
+    }
+  ],
+  "sponsors": [
+    {
+      "source": "Nhà tài trợ Kim cương",
+      "quantity": "1",
+      "value": "100.000.000",
+      "unit": "Trường đại học Văn Hiến"
+    },
+    {
+      "source": "Nhà tài trợ Vàng",
+      "quantity": "2",
+      "value": "50.000.000",
+      "unit": "Tài trợ tiền mặt"
+    },
+    {
+      "source": "Nhà Tài Trợ Bạc",
+      "quantity": "3",
+      "value": "35.000.0000",
+      "unit": "Tài trợ tiền mặt"
+    },
+    {
+      "source": "Đơn vị tài trợ địa điểm & Cơ sở vật chất",
+      "quantity": "1",
+      "value": "0đ",
+      "unit": "Trường đại học Văn Hiến"
+    },
+    {
+      "source": "Đơn vị tài trợ trang phục biểu và đạo cụ biểu diễn",
+      "quantity": "1",
+      "value": "0đ",
+      "unit": "Trang phục biểu diễn DIVIT"
+    },
+    {
+      "source": "Đơn vị tài trợ trang phục fashion show BTS Miệt Cù Lao",
+      "quantity": "1",
+      "value": "0đ",
+      "unit": "NTK Nguyễn Minh Công"
+    },
+    {
+      "source": "Nhà tài trợ truyền thông",
+      "quantity": "1",
+      "value": "0đ",
+      "unit": "Orbis ICT"
+    }
+  ],
+  "balance": [
+    {
+      "item": "Tổng thu",
+      "amount": "305.000.000"
+    },
+    {
+      "item": "Tổng chi",
+      "amount": "104.074.748"
+    },
+    {
+      "item": "Chênh lệch",
+      "amount": "200.925.252"
+    }
+  ],
+  "privileges": [
+    {
+      "item": "Danh vị chính thức",
+      "diamond": "Kim Cương",
+      "gold": "Nhà tài trợ Vàng",
+      "silver": "Nhà tài trợ Bạc / Đơn vị NTT Truyền thông",
+      "partner": "Đơn vị Đồng hành"
+    },
+    {
+      "item": "Logo trên Key Visual / Poster / Standee",
+      "diamond": "Vị trí ưu tiên nhất, kích thước lớn nhất",
+      "gold": "Vị trí nổi bật",
+      "silver": "Vị trí tiêu chuẩn",
+      "partner": "Có logo đồng hành"
+    },
+    {
+      "item": "Logo trên Màn hình LED Sân khấu chính",
+      "diamond": "★★★★★",
+      "gold": "★★★★",
+      "silver": "★★★",
+      "partner": "★★"
+    },
+    {
+      "item": "Logo trên Fanpage / Portal VHU & Kênh đối tác",
+      "diamond": "Nổi bật nhất",
+      "gold": "Nổi bật",
+      "silver": "Có",
+      "partner": "Có"
+    },
+    {
+      "item": "Logo trên Thư mời / Thư cảm ơn / Sen Passport",
+      "diamond": "Có (Vị trí ưu tiên)",
+      "gold": "Có",
+      "silver": "Có",
+      "partner": "Có"
+    },
+    {
+      "item": "Xuất hiện trong Video Recap / After Movie",
+      "diamond": "Intro + Outro",
+      "gold": "Outro",
+      "silver": "Credit / Outro",
+      "partner": "Danh sách cảm ơn"
+    },
+    {
+      "item": "Vị trí Booth gian hàng tại Sảnh Trống Đồng",
+      "diamond": "Không sử dụng",
+      "gold": "Booth vị trí ưu tiên",
+      "silver": "Booth tiêu chuẩn",
+      "partner": "X"
+    },
+    {
+      "item": "Phát mẫu thử / Sampling / Trải nghiệm",
+      "diamond": "X",
+      "gold": "Có",
+      "silver": "Có",
+      "partner": "X"
+    },
+    {
+      "item": "Bài đăng Fanpage Trường ĐH Văn Hiến & Kênh đối tác",
+      "diamond": "12 bài",
+      "gold": "10 bài",
+      "silver": "8 bài",
+      "partner": "5 bài"
+    },
+    {
+      "item": "Video TikTok / Facebook Reels / Shorts",
+      "diamond": "15 video",
+      "gold": "10 video",
+      "silver": "6 video",
+      "partner": "2 video"
+    },
+    {
+      "item": "Cung cấp luồng Livestream riêng / Gắn Logo hình",
+      "diamond": "Ưu tiên cấp luồng riêng",
+      "gold": "Có",
+      "silver": "Chỉ riêng nhà tài trợ NTT Truyền thông trực tiếp trên khung hình Stream",
+      "partner": "X"
+    },
+    {
+      "item": "MC xướng tên vinh danh trên sân khấu",
+      "diamond": "Khai mạc, tổng kết",
+      "gold": "Khai mạc",
+      "silver": "Khai mạc",
+      "partner": "Khai mạc"
+    },
+    {
+      "item": "Trao hoa và kĩ niệm chương",
+      "diamond": "Có",
+      "gold": "Có",
+      "silver": "Có",
+      "partner": "Có"
+    },
+    {
+      "item": "Vinh danh đóng góp vào Quỹ Thiện nguyện Đồng Tháp",
+      "diamond": "Có (Báo cáo riêng)",
+      "gold": "Có",
+      "silver": "Có",
+      "partner": "Có"
+    }
+  ],
+  "appendices_raw": {
+    "app1": "[P 69] Phụ lục 1.Tờ trình\n\n--- [TABLE 70 (1 rows x 2 cols)] ---\nR1: TRƯỜNG ĐẠI HỌC VĂN HIẾNBAN TỔ CHỨC SỰ KIỆN | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAMĐộc lập - Tự do - Hạnh phúc\n--- [END TABLE] ---\n\n\n[P 71] TP. Hồ Chí Minh, ngày 1 tháng 5 năm 2027\n\n[P 72] TỜ TRÌNH\n\n[P 73] Về việc phê duyệt Kế hoạch tổ chức Chương trình Văn hóa & Nghệ thuậttỉnh Đồng Tháp năm 2027 \"Chạm một sắc Sen\"\n\n[P 74] KÍNH GỬI: BAN GIÁM HIỆU TRƯỜNG ĐẠI HỌC VĂN HIẾN\n\n[P 75] Căn cứ định hướng chiến lược phát triển văn hóa học đường cho sinh viên Trường Đại học Văn Hiến năm 2027;\n\n[P 76] Căn cứ nhu cầu giao lưu văn hóa nghệ thuật và kết nối doanh nghiệp, nhà tài trợ với thế hệ trẻ;\n\n[P 77] Ban Tổ chức sự kiện kính trình Ban Giám hiệu xem xét và phê duyệt Kế hoạch cùng Dự toán kinh phí chi tiết cho Chương trình Văn hoá – Nghệ thuật tỉnh Đồng Tháp năm 2027 với các nội dung cụ thể như sau:\n\n[P 78] I. THÔNG TIN CHUNG VỀ SỰ KIỆN\n\n[P 79] Tên sự kiện: Chương trình Văn hoá – Nghệ thuật tỉnh Đồng Tháp năm 2027\n\n[P 80] Chủ đề chính: Chạm một sắc Sen\n\n[P 81] Thời gian tổ chức: 07h30, ngày 20/06/2027\n\n[P 82] Địa điểm dự kiến: Tầng 9, Hội trường Trần Hưng Đạo, HungHau Campus (Khu chức năng số 13E, Đại lộ Nguyễn Văn Linh, Xã Bình Hưng, TP.HCM)\n\n[P 83] Đơn vị thực hiện: Trường Đại học Văn Hiến (Ban Tổ chức Sự kiện)\n\n[P 84] Đối tượng tham gia: Sinh viên Trường Đại học Văn Hiến (Đăng ký trực tuyến hoàn toàn miễn phí)\n\n[P 85] Quy mô tham dự: 300 người tham dự trực tiếp tại Hội trường Trần Hưng Đạo\n\n[P 86] Màu sắc chủ đạo: Hồng Sen, Xanh lá Sen, Xanh dương (Kết hợp bộ nhận diện thương hiệu Đại học Văn Hiến)\n\n[P 87] II. MỤC TIÊU VÀ Ý NGHĨA TRỌNG TÂM\n\n[P 88] 1. Tôn vinh & Lan tỏa Văn hóa: Tái hiện không gian văn hóa, nghệ thuật và hình ảnh con người Đồng Tháp qua biểu tượng hoa sen  theo phong cách hiện đại, sinh động, phù hợp với giới trẻ.\n\n[P 89] 2. Giao lưu & Truyền cảm hứng: Tạo không gian giao lưu trực tiếp giữa sinh viên với Chủ tịch Tập đoàn Hùng Hậu (Ông Trần Văn Hậu), truyền cảm hứng nỗ lực vươn lên và định hướng phát triển thực tiễn.\n\n[P 90] 3. Mục tiêu Thiện nguyện Nhân văn: Toàn bộ lợi nhuận thu được sau sự kiện sẽ được trích quyên góp cho Trung tâm Bảo trợ xã hội Tổng hợp tỉnh Đồng Tháp.\n\n[P 91] 4. Gắn kết Doanh nghiệp & Truyền thông: Tăng cường mối quan hệ hợp tác chiến lược giữa Trường Đại học Văn Hiến với các doanh nghiệp, nhà tài trợ và các cơ quan báo chí\n\n[P 92] III. NỘI DUNG VÀ KỊCH BẢN CHƯƠNG TRÌNH (20/06/2027)\n\n[P 93] Chương trình chính diễn ra tại Tầng 9 Hội trường Trần Hưng Đạo với kịch bản điều hành chi tiết như sau:\n\n--- [TABLE 94 (12 rows x 2 cols)] ---\nR1: Khung thời gian | Nội dung & Tiết mục chính\nR2: 07:30 – 08:10 | Đđón khách, check-in bằng mã QR, ổn định hội trường.\nR3: 08:10 – 08:20 | Mở màn tiết mục nghệ thuật \"Sắc Sen VHU\".\nR4: 08:20 – 08:30 | Giới thiệu Đại biểu, Khách mời VIP và các Nhà tài trợ.\nR5: 08:30 – 08:40 | Phát biểu khai mạc của Đại diện Trường Đại học Văn Hiến\nR6: 08:40 – 09:00 | Trình diễn nghệ thuật \"Hồn Sen Đất Việt\" kết hợp cùng các nghệ nhân Đờn ca tài tử Nam Bộ.\nR7: 09:00 – 09:50 | Giao lưu chia sẻ cùng Chủ tịch HĐQT Hunghau Holding\nR8: 09:50 – 10:05 | Sinh viên tương tác và đặt câu hỏi trực tiếp cho Khách mời.\nR9: 10:05 – 10:25 | Fashion Show \"Sắc Sen” .\nR10: 10:25 – 10:40 | Trình diễn âm nhạc “Hồn quê\" & \"Ếch ngoài đáy giếng\".\nR11: 10:40 – 10:55 | Lễ Tổng kết\nR12: 10:55 – 11:10 | Tiễn khách\n--- [END TABLE] ---\n\n\n[P 95] IV. DỰ TRÙ KINH PHÍ VÀ NGUỒN TÀI CHÍNH\n\n[P 96] 1. Tổng hợp dự trù chi phí thực hiện\n\n--- [TABLE 97 (13 rows x 2 cols)] ---\nR1: Nhóm hạng mục chi phí | Tổng tiền (đã bao gồm VAT 8%)\nR2: A. Địa điểm – Dàn dựng (Booth tài trợ, trang trí) | 17.820.000 VNĐ\nR3: B. Âm thanh – Ánh sáng – Màn hình LED | 0 VNĐ\nR4: C. Ấn phẩm (Backdrop, tiểu cảnh Passport Sen, standee, thẻ staff) | 6.447.608 VNĐ\nR5: D. Truyền thông (Livestream, PR báo chí, Ads) | 32.400.000VNĐ\nR6: E. Nghệ thuật & Nội dung sân khấu | 8.640.000 VNĐ\nR7: F. Khách mời – Đón tiếp & Tri tri ân | 10.800.000 VNĐ\nR8: G. Quà tặng (Khăn bandana, Kỷ niệm chương, Hoa) | 10.918.800 VNĐ\nR9: H. Hậu cần – An toàn – Y tế – Vệ sinh | 3.240.000 VNĐ\nR10: I. Phục vụ – Ăn uống – Tiếp đón phương xa | 4.347.000 VNĐ\nR11: TỔNG CHI PHÍ TRỰC TIẾP | 94.613.408 VNĐ\nR12: K. Chi phí dự phòng phát sinh (10%) | 9.461.340 VNĐ\nR13: TỔNG CỘNG KINH PHÍ TỔ CHỨC | 104.074.748.VNĐ\n--- [END TABLE] ---\n\n\n[P 98] 2. Nguồn thu tài trợ dự kiến\n\n--- [TABLE 99 (8 rows x 3 cols)] ---\nR1: Gói tài trợ / Đơn vị đồng hành | Hình thức tài trợ | Giá trị tài trợ dự kiến\nR2: Nhà tài trợ Kim cương (01 suất) | Tiền mặt | 100.000.000 VNĐ\nR3: Nhà tài trợ Vàng (02 suất) | Tiền mặt | 100.000.000 VNĐ (50M/suất)\nR4: Nhà tài trợ Bạc (03 suất) | Tiền mặt | 105.000.000 VNĐ (35M/suất)\nR5: Đại học Văn Hiến (CSVC, Hội trường) | Địa điểm & Thiết bị | Đài thọ 100%\nR6: Trang phục biểu diễn DIVIT & NTK Nguyễn Minh Công | Trang phục & Đạo cụ | Đài thọ 100%\nR7: Orbis ICT | Truyền thông & Livestream | Đài thọ 100%\nR8: TỔNG NGUỒN THU TÀI TRỢ DỰ KIẾN | Tiền mặt & Hiện vật | 305.000.000 VNĐ\n--- [END TABLE] ---\n\n\n[P 100] V. KẾ HOẠCH VẬN HÀNH VÀ TIẾN ĐỘ THỰC HIỆN\n\n[P 101] Giai đoạn 1: Chuẩn bị & Vận hành trước sự kiện (01/05 – 19/06/2027)\n\n[P 102] Hoàn thiện thủ tục hành chính, pháp lý và công văn xin phép biểu diễn nghệ thuật, PCCC.\n\n[P 103] Chốt hợp đồng với Talent, Nghệ sĩ, VIP.\n\n[P 104] Thống nhất toàn bộ kịch bản chi tiết.\n\n[P 105] Mở link đăng ký trực tuyến trước 07 ngày, phát mã QR qua email sinh viên VHU.\n\n[P 106] Tổ chức tổng duyệt sân khấu, khớp âm thanh, ánh sáng và phương án PCCC khẩn cấp.\n\n[P 107] Giai đoạn 2: Vận hành trong ngày sự kiện (20/06/2027)\n\n[P 108] Kiểm tra đường truyền Wifi/5G, xuất sẵn danh sách Excel offline dự phòng sự cố nghẽn mạng.\n\n[P 109] Phân luồng đón tiếp sinh viên check-in QR Code tại cổng tầng trệt và đưa VIP lên Tầng 9.\n\n[P 110] Điều hành toàn bộ chuỗi nội dung sân khấu và livestream trực tuyến trên hệ thống Fanpage.\n\n[P 111] Giai đoạn 3: Sau sự kiện & Thực thi Thiện nguyện (21/06 – 04/08/2027)\n\n[P 112] Tháo dỡ sảnh, dọn dẹp vệ sinh Tầng 9 và bàn giao mặt bằng sạch cho Campus\n\n[P 113] Gửi thư cảm ơn, bộ ảnh kỷ niệm và quà tri ân đến 100% Khách mời VIP và Nhà tài trợ.\n\n[P 114] Đối soát chứng từ, quyết toán với Phòng Tài chính VHU để xác định chính xác lợi nhuận.\n\n[P 115] Duy trì hình ảnh về mắt truyền thông\n\n[P 116] Công bố Quỹ và bàn giao toàn bộ lợi nhuận cho Trung tâm Bảo trợ xã hội Tổng hợp tỉnh Đồng Tháp.\n\n[P 117] VI. QUẢN TRỊ RỦI RO\n\n[P 118] Sự cố Check-in / Mạng internet: Chuẩn bị 02 máy quét dự phòng và chuyển sang check-in thủ công qua danh sách Excel offline ngay lập tức nếu nghẽn mạng.\n\n[P 119] Lịch trình Khách mời VIP / Nghệ sĩ: Xác nhận lịch trước 24h và 2h. Nếu VIP/Nghệ sĩ đến trễ, đẩy phần Fashion Show \"Sắc Sen\" hoặc phần Trao hoa vinh danh lên trước.\n\n[P 120] Sự cố An toàn & PCCC: Kiểm tra hệ thống điện và lối thoát hiểm cầu thang bộ trước 07:00. Khi có sự cố, lập tức dừng chương trình và hướng dẫn thoát hiểm bằng thang\n\n[P 121] bộ (không dùng thang máy).\n\n[P 122] VI. KIẾN NGHỊ VÀ ĐỀ XUẤT\n\n[P 123] Ban Tổ chức kính trình Ban Giám hiệu xem xét:\n\n[P 124] Phê duyệt chủ trương và Kế hoạch tổng thể chương trình.\n\n[P 125] Chỉ đạo các Phòng, Khoa, Trung tâm phối hợp, hỗ trợ Ban Tổ chức triển khai sự kiện thành công tốt đẹp.\n\n[P 126] Kính trình Ban Giám hiệu xem xét, quyết định./.\n\n--- [TABLE 127 (1 rows x 2 cols)] ---\nR1: Nơi nhận:- Ban Giám hiệu (để báo cáo);- Các Phòng, Khoa liên quan (để p/h);- Lưu: VT, BTC. | TM. BAN TỔ CHỨC SỰ KIỆN // (Ký và ghi rõ họ tên) // TRẦN THUÝ QUYÊN\n--- [END TABLE] ---",
+    "app2": "[P 128] Phụ lục 2 Đơn xin sử dụng địa điểm tổ chức\n\n--- [TABLE 129 (1 rows x 2 cols)] ---\nR1: TRƯỜNG ĐẠI HỌC VĂN HIẾNBAN TỔ CHỨC SỰ KIỆN | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAMĐộc lập – Tự do – Hạnh phúc─────────────\n--- [END TABLE] ---\n\n\n[P 130] TP. Hồ Chí Minh, ngày 5 tháng 05 năm 2027\n\n[P 131] ĐƠN XIN SỬ DỤNG ĐỊA ĐIỂM TỔ CHỨC SỰ KIỆN\n\n[P 132] (V/v: Sử dụng Hội trường và Sảnh tổ chức Chương trình Văn hóa & Nghệ thuật\n\n[P 133] tỉnh Đồng Tháp 2027 “ Chạm một sắc Sen” )\n\n[P 134] Kính gửi:  - Ban Giám hiệu Trường Đại học Văn Hiến;               - Ban Quản lý Cơ sở HungHau Campus;               - Phòng Quản trị Cơ sở vật chất & Thiết bị.\n\n[P 135] I. THÔNG TIN ĐƠN VỊ ĐĂNG KÝ & SỰ KIỆN\n\n[P 136] Đơn vị đăng ký: Trường Đại học Văn Hiến (Ban Tổ chức Sự kiện)\n\n[P 137] Người đại diện liên hệ: Trần Thúy Quyên – Trưởng ban tổ chức\n\n[P 138] Tên sự kiện: Chương trình Văn hóa – Nghệ thuật tỉnh Đồng Tháp năm 2027\n\n[P 139] Chủ đề chính: Chạm một sắc Sen\n\n[P 140] Quy mô tham dự: 300 sinh viên Trường Đại học Văn Hiến, các vương miện Hoa hậu, Nghệ sĩ khách mời và đại biểu tỉnh Đồng Tháp.\n\n[P 141] Mục đích sử dụng: Tổ chức không gian trải nghiệm các hoạt động trong chương trình và không gian gian hàng nhà tài trợ\n\n[P 142] II. ĐỊA ĐIỂM VÀ THỜI GIAN ĐĂNG KÝ SỬ DỤNG (02 NGÀY)\n\n[P 143] 1. Các khu vực đăng ký sử dụng:\n\n[P 144] Hội trường Trần Hưng Đạo (Tầng 9, HungHau Campus): Phục vụ sân khấu chính, âm thanh, ánh sáng, màn hình LED và 300 ghế ngồi.\n\n[P 145] Khu vực Sảnh Trống Đồng (Khu vực sảnh): Phục vụ lắp đặt 06 gian hàng tài trợ và mô hình check-in \"Góc Khát vọng VHU\"\n\n[P 146] Phòng chức năng / Backstage Tầng 9: Phục vụ phòng chờ VIP, chuẩn bị cho Nghệ sĩ, Hoa hậu và Ban Tổ chức.\n\n[P 147] Khu vực thang 02 máy bên phải phục vụ cho công tác di chuyển và phân luồng\n\n[P 148] 2. Lịch trình chi tiết đăng ký sử dụng trong 02 ngày:\n\n--- [TABLE 149 (6 rows x 4 cols)] ---\nR1: Thời gian | Nội dung công việc | Khu vực sử dụng | Ghi chú / Yêu cầu CSVC\nR2: NGÀY 119/06/2027(07h00 - 17h00) | Thực hiện trang trí khu vực; dựng 04 booth tài trợ và góc check-in. | Hội trường Tầng 9 & Sảnh Trống Đồng | Cung cấp nguồn điện thi công, hỗ trợ kỹ thuật tòa nhà.\nR3: NGÀY 119/06/2027(17h00 - 21h00) | Chạy thử tải thiết bị kỹ thuật, tổng duyệt sân khấu, khớp âm thanh/ánh sáng với dàn nhạc, MC và các tiết mục nghệ thuật. | Hội trường Trần Hưng Đạo | Hệ thống điện áp ổn định, vận hành màn hình LED & loa.\nR4: NGÀY 220/06/2027(06h30 - 07h30) | Phần luồng và đón tiếp sinh viên, Đại biểu & VIP. | Sảnh Trống Đồng & Phòng chờ VIP | Mở cửa thang máy riêng, đảm bảo trật tự sảnh đón.\nR5: NGÀY 220/06/2027(07h30 - 11h00) | Diễn ra chính thức chương trình \"Chạm một sắc Sen\" | Hội trường Trần Hưng Đạo | Hỗ trợ an ninh, PCCC, máy phát điện dự phòng sẵn sàng.\nR6: NGÀY 220/06/2027(11h30 - 17h30) | Tháo giở, thu dọn, tiểu cảnh, gian hàng sảnh Trống Đồng, vệ sinh công nghiệp và kiểm kê bàn giao mặt bằng. | Hội trường Trần Hưng Đạo, Sảnh Trống Đồng | Kiểm tra hiện trạng và nghiệm thu bàn giao CSVC.\n--- [END TABLE] ---\n\n\n[P 150] III. ĐỀ XUẤT HỖ TRỢ VỀ CƠ SỞ VẬT CHẤT & KỸ THUẬT\n\n[P 151] Để sự kiện diễn ra an toàn, thành công và đúng tiến độ, Ban Tổ chức kính đề nghị Ban Quản lý Campus và Phòng Quản trị CSVC hỗ trợ một số điều kiện sau:\n\n[P 152] Kỹ thuật & Điện: Hỗ trợ cán bộ kỹ thuật trực giám sát hệ thống điện, âm thanh, ánh sáng, màn hình LED trong suốt thời gian tổng duyệt (tối 19/06) và sự kiện chính (sáng 20/06); chuẩn bị sẵn sàng phương án máy phát điện dự phòng.\n\n[P 153] An ninh & Vận chuyển: Hỗ trợ phân luồng giao thông tại bãi xe, mở lối đi thang máy ưu tiên cho đại biểu VIP/nghệ sĩ và cho phép xe tải chở đồ trang thiết bị hậu cần ra vào bãi bốc xếp.\n\n[P 154] Vệ sinh & PCCC: Kiểm tra trang thiết bị PCCC, lối thoát hiểm cầu thang bộ tại Tầng 9 trước 07h00 ngày 20/06/2027 và hỗ trợ tăng cường công tác vệ sinh trước - sau chương trình.\n\n[P 155] IV. CAM KẾT CỦA BAN TỔ CHỨC\n\n[P 156] Sử dụng địa điểm đúng mục đích, đúng thời gian và khu vực đã đăng ký trong đơn.\n\n[P 157] Chịu trách nhiệm hoàn toàn về công tác quản lý sinh viên, đảm bảo an ninh trật tự, an toàn phòng chống cháy nổ và an toàn điện trong suốt 02 ngày sử dụng.\n\n[P 158] Bảo quản toàn bộ tài sản, cơ sở vật chất, trang thiết bị của Hội trường và Campus. Trường hợp xảy ra hư hỏng, mất mát do lỗi của Ban Tổ chức, chúng tôi cam kết bồi thường theo đúng quy định của Nhà trường.\n\n[P 159] Tiến hành thu dọn vệ sinh, tháo dỡ toàn bộ phông bạt, gian hàng và bàn giao mặt bằng sạch sẽ, nguyên trạng cho Ban Quản lý Campus trước 18h00 ngày 20/06/2027.\n\n[P 160] Kính mong Ban Giám hiệu, Ban Quản lý Cơ sở HungHau Campus và Phòng Quản trị CSVC xem xét, chấp thuận cho phép Ban Tổ chức sử dụng địa điểm để triển khai công tác chuẩn bị đúng tiến độ.\n\n[P 161] Xin trân trọng cảm ơn!\n\n--- [TABLE 162 (1 rows x 2 cols)] ---\nR1: Ý KIẾN BAN GIÁM HIỆU / BQL CƠ SỞ(Ký và ghi rõ họ tên) | TM. BAN TỔ CHỨC SỰ KIỆNTRƯỞNG BAN TỔ CHỨC(Ký và ghi rõ họ tên)Trần Thuý Quyên\n--- [END TABLE] ---",
+    "app3": "[P 163] Phụ lục 3. Biên bản thỏa thuận phê duyệt biểu diễn trang phục tài trợ\n\n--- [TABLE 164 (1 rows x 2 cols)] ---\nR1: BỘ GIÁO DỤC VÀ ĐÀO TẠOTRƯỜNG ĐẠI HỌC VĂN HIẾN // ─────────── | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAMĐộc lập - Tự do - Hạnh phúc // ──────────────────\n--- [END TABLE] ---\n\n\n[P 165] TP. Hồ Chí Minh, ngày 10 tháng 05 năm 2027\n\n[P 166] BIÊN BẢN THỎA THUẬN PHÊ DUYỆT\n\n[P 167] VIỆC TÀI TRỢ VÀ BIỂU DIỄN TRANG PHỤC THỜI TRANG\n\n[P 168] (V/v: Trình diễn Bộ sưu tập \"Miệt Cù Lao\" của NTK Nguyễn Minh Côngtại Chương trình Văn hóa & Nghệ thuật tỉnh Đồng Tháp năm 2027 \"Chạm một sắc Sen\")\n\n[P 169] Căn cứ Kế hoạch tổ chức Chương trình Văn hóa & Nghệ thuật tỉnh Đồng Tháp năm 2027 với chủ đề “Chạm một sắc Sen” do Trường Đại học Văn Hiến phê duyệt;\n\n[P 170] Căn cứ nhu cầu hợp tác tôn vinh nghệ thuật và văn hóa sông nước Nam Bộ giữa Trường Đại học Văn Hiến và Nhà thiết kế Nguyễn Minh Công;\n\n[P 171] Căn cứ khả năng và sự thống nhất tự nguyện giữa hai Bên.\n\n[P 172] Hôm nay, ngày 10 tháng 05 năm 2027, tại Trường Đại học Văn Hiến, hai Bên gồm có:\n\n[P 173] BÊN A: TRƯỜNG ĐẠI HỌC VĂN HIẾN (ĐƠN VỊ TỔ CHỨC)\n\n[P 174] Đại diện: Bà Trần Thúy Quyên\n\n[P 175] Chức vụ: Trưởng Ban Tổ chức\n\n[P 176] Địa chỉ: HungHau Campus, Khu chức năng 13E, Đại lộ Nguyễn Văn Linh, Xã Bình Hưng, TP.HCM\n\n[P 177] Điện thoại: 0369449925\n\n[P 178] BÊN B: NHÀ THIẾT KẾ NGUYỄN MINH CÔNG (ĐƠN VỊ TÀI TRỢ TRANG PHỤC)\n\n[P 179] Đại diện: Ông Nguyễn Minh Công\n\n[P 180] Chức danh: Nhà thiết kế Thời trang / Tác giả Bộ sưu tập \"Miệt Cù Lao\"\n\n[P 181] Thương hiệu: Thương hiệu NTK Nguyễn Minh Công\n\n[P 182] Sau khi bàn bạc và thống nhất, hai Bên cùng ký kết Biên bản thỏa thuận phê duyệt với các điều khoản cụ thể như sau:\n\n[P 183] ĐIỀU 1: MỤC ĐÍCH VÀ NỘI DUNG PHÊ DUYỆT\n\n[P 184] 1.1. Phê duyệt biểu diễn: Bên A chính thức phê duyệt đề xuất của Bên B về việc đưa Bộ sưu tập thời trang \"Miệt Cù Lao\" vào trình diễn trong tiết mục Fashion Show \"Sắc Sen\" thuộc Chương trình ăn hóa – Nghệ thuật tỉnh Đồng Tháp năm 2027 \"Chạm một sắc Sen\".\n\n[P 185] 1.2. Thời gian và Địa điểm trình diễn:\n\n[P 186] Thời gian: Từ 10:05 đến 10:25, ngày 20/06/2027.\n\n[P 187] Địa điểm: Tầng 9, Hội trường Trần Hưng Đạo, HungHau Campus, Khu chức năng số 13E, Đại lộ Nguyễn Văn Linh, Xã Bình Hưng, TP.HCM.\n\n[P 188] 1.3. Hình thức tài trợ: Bên B tham gia với tư cách Nhà tài trợ Đồng hành hỗ trợ hiện vật (bộ sưu tập trang phục biểu diễn). Sự hợp tác mang tính chất hỗ trợ nghệ thuật văn hóa phi thương mại, không phát sinh chi phí tiền mặt trong dự toán trực tiếp của Bên A.\n\n[P 189] ĐIỀU 2: QUY CÁCH BỘ SỰ TẬP VÀ YÊU CẦU BIỂU DIỄN\n\n[P 190] 2.1. Nội dung Bộ sưu tập \"Miệt Cù Lao\":\n\n[P 191] Cảm hứng thiết kế: Văn hóa sông nước Nam Bộ, hoa sen và các món ẩm thực/bánh dân gian truyền thống miền Tây.\n\n[P 192] Số lượng trang phục: 10 mẫu thiết kế hoàn chỉnh do NTK Nguyễn Minh Công trực tiếp sáng tác và chuẩn bị.\n\n[P 193] 2.2. Nhân sự trình diễn (Model):\n\n[P 194] Khách mời đặc biệt: Trình diễn vedette bởi Hoa hậu Nguyễn Thị Yến Nhi (Miss Grand Vietnam 2025) và first face Á hậu 1 Lê Phan Hạnh Nguyên (Á hậu 1 Miss Grand VietNam 2025).\n\n[P 195] Đội ngũ biểu diễn phối hợp: Sinh viên Trường Đại học Văn Hiến do Ban Tổ chức tuyển chọn và hướng dẫn catwalk.\n\n[P 196] 2.3. Bàn giao và bảo quản:\n\n[P 197] Bên B bàn giao trang phục cho Ban Hậu cần sự kiện trước 17:00 ngày 19/06/2027. Trang phục được bố trí bảo quản tại khu vực hậu trường (Backstage Tầng 9) đảm bảo an toàn tuyệt đối.\n\n[P 198] ĐIỀU 3: QUYỀN VÀ TRÁCH NHIỆM CỦA BÊN A (TRƯỜNG ĐẠI HỌC VĂN HIẾN)\n\n[P 199] 3.1. Công tác vận hành và kỹ thuật:\n\n[P 200] Cung cấp toàn bộ hạ tầng sân khấu, hệ thống âm thanh, ánh sáng, màn hình LED chuyên dụng và khu vực phòng chờ/backstage đạt chuẩn cho buổi trình diễn.\n\n[P 201] Đảm bảo công tác an ninh, trật tự, an toàn PCCC và y tế hỗ trợ trong suốt thời gian diễn ra sự kiện.\n\n[P 202] 3.2. Quyền lợi truyền thông dành cho Bên B:\n\n[P 203] Đặt danh xưng \"NTK Nguyễn Minh Công\" trên các ấn phẩm truyền thông, visual màn hình LED, bài viết Fanpage Trường Đại học Văn Hiến và xuất hiện cùng chương trình tại Báo Pháp Luật Việt Nam và Báo phát thanh và truyền hình Đồng Tháp.\n\n[P 204] Tổ chức nghi thức vinh danh, trao hoa và kỷ niệm chương tri ân NTK Nguyễn Minh Công tại phần Tổng kết sự kiện ngày 20/06/2027.\n\n[P 205] Cung cấp trọn bộ tư liệu ảnh chất lượng cao (HD) và clip ghi hình tiết mục Fashion Show cho Bên B sau khi kết thúc sự kiện.\n\n[P 206] ĐIỀU 4: QUYỀN VÀ TRÁCH NHIỆM CỦA BÊN B (NTK NGUYỄN MINH CÔNG)\n\n[P 207] 4.1. Trách nhiệm chuyên môn:\n\n[P 208] -  Cung cấp đầy đủ, đúng tiến độ số lượng trang phục BST \"Miệt Cù Lao\" đã thỏa thuận, đảm bảo tính thẩm mỹ, nghệ thuật và thuần phong mỹ tục phù hợp với môi trường giáo dục.\n\n[P 209] -  Phối hợp cùng Ban Hậu cần Bên A cử nhân sự trợ lý hỗ trợ mặc và căn chỉnh trang phục cho dàn người mẫu trước giờ lên sóng.\n\n[P 210] 4.2. Quyền lợi của Bên B:\n\n[P 211] -  Được vinh danh thương hiệu cá nhân trên tất cả các kênh thông tin chính thức của chương trình.\n\n[P 212] -  Tham dự sự kiện với tư cách Khách mời danh dự / VIP của Trường Đại học Văn Hiến.\n\n[P 213] - Sử dụng hình ảnh, video clip ghi hình chính thức của tiết mục để quảng bá cho thương hiệu cá nhân.\n\n[P 214] ĐIỀU 5: BẢO MẬT VÀ SỞ HỮU TRÍ TUỆ\n\n[P 215] 5.1. Bản quyền tác giả: Bên A cam kết tôn trọng tuyệt đối quyền sở hữu trí tuệ và bản quyền sáng tác của NTK Nguyễn Minh Công đối với BST \"Miệt Cù Lao\". Bên A không khai thác thương mại các mẫu thiết kế dưới bất kỳ hình thức nào.\n\n[P 216] 5.2. Quyền sử dụng tư liệu: Bên A được quyền sử dụng hình ảnh, video clip trình diễn cho mục đích báo cáo, lưu trữ truyền thống và quảng bá các hoạt động văn hóa - giáo dục phi lợi nhuận của Nhà trường.\n\n[P 217] ĐIỀU 6: ĐIỀU KHOẢN THI HÀNH\n\n[P 218] 6.1. Biên bản thỏa thuận này có hiệu lực kể từ ngày ký cho đến khi hai Bên hoàn tất công tác tổng kết và nghĩa vụ truyền thông sau sự kiện.\n\n[P 219] 6.2. Trong quá trình thực hiện, nếu có vướng mắc phát sinh, hai Bên sẽ cùng trao đổi trên tinh thần hợp tác, tôn trọng lẫn nhau. Mọi thay đổi, bổ sung phải được lập thành văn bản do đại diện hai Bên ký kết.\n\n[P 220] 6.3. Biên bản được lập thành 04 (bốn) bản có giá trị pháp lý như nhau, Bên A giữ 03 bản, Bên B giữ 01 bản để thực hiện.\n\n--- [TABLE 221 (1 rows x 2 cols)] ---\nR1: ĐẠI DIỆN BÊN ATRƯỜNG ĐẠI HỌC VĂN HIẾNTRƯỞNG BAN TỔ CHỨC // (Ký, ghi rõ họ tên và đóng dấu) // Trần Thúy Quyên | ĐẠI DIỆN BÊN B // (Ký, ghi rõ họ tên) // Nguyễn Minh Công\n--- [END TABLE] ---\n\n  [MEDIA ['rId21']]",
+    "app4": "[P 223] Phụ lục 4. Công văn thông báo và đề nghị chấp thuận tổ chức hoạt động biểu diễn nghệ thuật và trình diễn thời trang\n\n--- [TABLE 224 (1 rows x 2 cols)] ---\nR1: BỘ GIÁO DỤC VÀ ĐÀO TẠOTRƯỜNG ĐẠI HỌC VĂN HIẾNBAN TỔ CHỨC NGÀY HỘISố: ....../CV-VHU-2027 | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAMĐộc lập - Tự do - Hạnh phúcTP. Hồ Chí Minh, ngày 5 tháng 5 năm 2027\n--- [END TABLE] ---\n\n\n[P 225] CÔNG VĂN THÔNG BÁO VÀ ĐỀ NGHỊ CHẤP THUẬNTỔ CHỨC HOẠT ĐỘNG BIỂU DIỄN NGHỆ THUẬT VÀ TRÌNH DIỄN THỜI TRANG\n\n[P 226] (V/v: Tổ chức Chương trình Văn hóa & Nghệ thuật tỉnh Đồng Tháp năm 2027 \"Chạm một sắc Sen\")\n\n[P 227] Kính gửi: SỞ VĂN HÓA VÀ THỂ THAO THÀNH PHỐ HỒ CHÍ MINH(Phòng Quản lý Nghệ thuật)\n\n[P 228] Căn cứ Nghị định số 144/2020/NĐ-CP ngày 14 tháng 12 năm 2020 của Chính phủ quy định về hoạt động nghệ thuật biểu diễn;Căn cứ Kế hoạch tổ chức các hoạt động trải nghiệm văn hóa truyền thống dành cho sinh viên của Trường Đại học Văn Hiến năm 2027;Trường Đại học Văn Hiến trân trọng gửi lời chào và xin thông báo, đề nghị Sở Văn hóa và Thể thao TP. Hồ Chí Minh xem xét chấp thuận việc tổ chức chương trình biểu diễn nghệ thuật và trình diễn thời trang với các nội dung chi tiết như sau:\n\n[P 229] I. ĐƠN VỊ TỔ CHỨC VÀ ĐẠI DIỆN CHÍNH THỨC\n\n[P 230] -  Đơn vị tổ chức: TRƯỜNG ĐẠI HỌC VĂN HIẾN-  Người đại diện Ban Tổ chức: Bà Trần Thúy Quyên - Trưởng Ban Tổ chức\n\n[P 231] - Địa chỉ trụ sở: HungHau Campus, Khu chức năng 13E, Đại lộ Nguyễn Văn Linh, Xã Bình Hưng, TP. Hồ Chí Minh.-  Điện thoại liên hệ:0369449925 – Email: quyenntran2005@gmail.com\n\n[P 232] II. THÔNG TIN CHƯƠNG TRÌNH SỰ KIỆN\n\n[P 233] - Tên chương trình: Chương trình Văn hóa – Nghệ thuật tỉnh Đồng Tháp năm 2027 với chủ đề \"Chạm một sắc Sen\".- Mục đích tổ chức: Tuyên truyền, tôn vinh và lan tỏa các giá trị văn hóa truyền thống, nghệ thuật dân gian sông nước Nam Bộ và di sản văn hóa tỉnh Đồng Tháp tới sinh viên; tạo không gian giao lưu nghệ thuật lành mạnh, giáo dục lòng yêu quê hương đất nước.- Thời gian tổ chức: Từ 07:30 đến 11:30, ngày 20 tháng 06 năm 2027.\n\n[P 234] -  Địa điểm tổ chức: Tầng 9, Hội trường Trần Hưng Đạo, HungHau Campus, Khu chức năng 13E, Đại lộ Nguyễn Văn Linh, Xã Bình Hưng, TP. Hồ Chí Minh.-  Quy mô dự kiến: Khoảng 300 người (bao gồm sinh viên, cán bộ giảng viên, các nghệ sĩ biểu diễn và đại biểu khách mời từ Sở VHTTDL tỉnh Đồng Tháp).\n\n[P 235] III. NỘI DUNG CHƯƠNG TRÌNH BIỂU DIỄN VÀ TRÌNH DIỄN THỜI TRANG\n\n[P 236] Chương trình bao gồm các hoạt động biểu diễn nghệ thuật âm nhạc dân gian và tiết mục trình diễn thời trang đặc sắc:\n\n--- [TABLE 237 (5 rows x 3 cols)] ---\nR1: Thời gian | Nội dung tiết mục | Nghệ sĩ / Nhân sự thể hiện\nR2: 08:00 - 08:30 | Tiết mục Sắc Sen VHU | CLB văn nghệ\nR3: 08:45 - 09:15 | Tiết mục Hồn Sen Đất Việt | CLB văn nghệ & Nghệ nhân\nR4: 09:45 - 10:05 | Trình diễn tiết mục hát | Ca sĩ Phương Mỹ Chi\nR5: 10:05 - 10:25 | Fashion Show \"Sắc Sen\" - Trình diễn BST \"Miệt Cù Lao\" của NTK Nguyễn Minh Công | Hoa hậu Nguyễn Thị Yến Nhi, Á hậu 1 Lê Phan Hạnh Nguyên & CLB thời trang\n--- [END TABLE] ---\n\n\n[P 238] IV. CAM KẾT VỀ AN NINH, TRẬT TỰ VÀ THUẦN PHONG MỸ TỤC\n\n[P 239] Trường Đại học Văn Hiến xin cam kết thực hiện nghiêm túc các quy định pháp luật:\n\n[P 240] -  Tất cả các tiết mục âm nhạc và Bộ sưu tập thời trang \"Miệt Cù Lao\" trình diễn trong sự kiện có nội dung lành mạnh, tôn vinh giá trị văn hóa dân tộc, phù hợp với thuần phong mỹ tục Việt Nam và môi trường giáo dục đại học.- Đảm bảo công tác an ninh trật tự, an toàn phòng cháy chữa cháy, vệ sinh môi trường và công tác y tế trong suốt thời gian diễn ra sự kiện tại HungHau Campus.-  Không thực hiện bán vé thu tiền, không mang tính chất thương mại hóa kinh doanh.-  Chịu hoàn toàn trách nhiệm trước pháp luật về tính chính xác của các thông tin kê khai và việc tổ chức chương trình.\n\n[P 241] V. ĐỀ NGHỊ CHẤP THUẬN\n\n[P 242] Kính đề nghị Sở Văn hóa và Thể thao Thành phố Hồ Chí Minh xem xét, chấp thuận cho Trường Đại học Văn Hiến được tổ chức hoạt động nêu trên. Trân trọng cảm ơn sự quan tâm và hỗ trợ của Quý Sở.\n\n--- [TABLE 243 (1 rows x 2 cols)] ---\nR1: Nơi nhận:- Như trên;- UBND Xã Bình Hưng (để báo cáo);- Công an xã Bình Hưng (để phối hợp ANTT);- Ban Giám hiệu VHU (để b/c);- Lưu: VT, BTC. | TM. BAN TỔ CHỨC TRƯỞNG BAN TỔ CHỨCTrần Thúy Quyên\n--- [END TABLE] ---",
+    "app5": "[P 244] Phụ lục 5. Công văn thông báo và đề nghị hỗ trợ đảm bảo an ninh trật tự, an toàn giao thông & PCCC\n\n--- [TABLE 245 (1 rows x 2 cols)] ---\nR1: BỘ GIÁO DỤC VÀ ĐÀO TẠOTRƯỜNG ĐẠI HỌC VĂN HIẾNBAN TỔ CHỨC NGÀY HỘI VĂN HÓASố: ....../TB-BTC2027 | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAMĐộc lập - Tự do - Hạnh phúc-----------------------TP. Hồ Chí Minh, ngày 5 tháng 05 năm 2027\n--- [END TABLE] ---\n\n\n[P 246] CÔNG VĂN THÔNG BÁO VÀ ĐỀ NGHỊ HỖ TRỢ(V/v Đảm bảo an ninh trật tự, an toàn giao thông và phòng cháy chữa cháy – cứu nạn cứu hộ cho Chương trình Văn hóa – Nghệ thuật tỉnh Đồng Tháp năm 2027\n\n[P 247] Chủ đề \"Chạm một sắc Sen\")\n\n[P 248] Kính gửi:- Ủy ban nhân dân Xã Bình Hưng, TP.HCM;- Công an Xã Bình Hưng, TP. Hồ Chí Minh;- Đội Cảnh sát PCCC & CNCH – Công an Xã Bình Hưng\n\n[P 249] I. CĂN CỨ VÀ MỤC ĐÍCH TỔ CHỨC\n\n[P 250] Căn cứ định hướng chiến lược phát triển văn hóa học đường cho sinh viên Trường Đại học Văn Hiến năm 2027;\n\n[P 251] Căn cứ nhu cầu giao lưu văn hóa nghệ thuật và kết nối doanh nghiệp, nhà tài trợ với thế hệ trẻ;\n\n[P 252] II. THÔNG TIN CHI TIẾT VỀ SỰ KIỆN\n\n--- [TABLE 253 (5 rows x 2 cols)] ---\nR1: Tên sự kiện: | Chương trình Văn hóa – Nghệ thuật tỉnh Đồng Tháp năm 2027 // Chủ đề \"Chạm một sắc Sen\"\nR2: Thời gian tổ chức: | Từ 07:30 đến 11:30, Chủ Nhật - Ngày 20 tháng 06 năm 2027(Lắp đặt & chuẩn bị từ 08:00 ngày 19/06/2027)\nR3: Địa điểm tổ chức: | Tầng 9, Hội trường Trần Hưng Đạo, HungHau Campus, Trường Đại học Văn Hiến (Khu chức năng số 13E, Đại lộ Nguyễn Văn Linh, Xã Bình Hưng, TP.HCM)\nR4: Quy mô tham dự: | Khoảng 300 đại biểu, khách mời, giảng viên và sinh viên\nR5: Tính chất sự kiện: | Sự kiện phi thương mại (Không bán vé)\n--- [END TABLE] ---\n\n\n[P 254] III. PHƯƠNG ÁN TỰ ĐẢM BẢO AN NINH TRẬT TỰ VÀ PCCC CỦA NHÀ TRƯỜNG\n\n[P 255] Để đảm bảo sự kiện diễn ra trang trọng, an toàn tuyệt đối, Ban Tổ chức Trường Đại học Văn Hiến đã chủ động triển khai các phương án nội bộ bao gồm:\n\n[P 256] Công tác bảo vệ & An ninh trật tự: Bố trí lực lượng bảo vệ nội bộ (10 nhân sự) phân luồng phương tiện tại cổng ra vào HungHau Campus, hướng dẫn bãi xe sinh viên/khách mời và túc trực điều phối trật tự tại lối vào Tầng 9 Hội trường.\n\n[P 257] Công tác Phòng cháy chữa cháy (PCCC) & CNCH: Hệ thống báo cháy tự động, chữa cháy vách tường, bình chữa cháy xách tay và lối thoát hiểm tại Tầng 9 HungHau Campus đã được kiểm tra, đảm bảo vận hành tốt. Bố trí tổ PCCC cơ sở túc trực suốt thời gian diễn ra sự kiện.\n\n[P 258] Công tác Y tế & Hậu cần: Bố trí 01 Trạm y tế lưu động với đầy đủ trang thiết bị sơ cấp cứu ban đầu và nhân sự y tế túc trực tại khuôn viên sự kiện.\n\n[P 259] IV. NỘI DUNG ĐỀ NGHỊ HỖ TRỢ\n\n[P 260] Nhằm hỗ trợ Nhà trường quản lý tốt an ninh địa bàn và phòng ngừa các sự cố phát sinh, Ban Tổ chức kính đề nghị UBND Xã Bình Hưng, Công an Huyện Bình Chánh, Công an Xã Bình Hưng và Đội Cảnh sát PCCC & CNCH hỗ trợ một số nội dung sau:\n\n[P 261] - UBND Xã Bình Hưng & Công an Xã Bình Hưng: Ghi nhận thông tin tổ chức sự kiện; hỗ trợ tuần tra, giám sát tình hình an ninh trật tự, an toàn giao thông tại tuyến đường Đại lộ Nguyễn Văn Linh khu vực trước cổng HungHau Campus trong khung giờ cao điểm (07:00 – 08:00 và 11:00 – 12:00 ngày 20/06/2027).\n\n[P 262] - Công an Xã Bình Hưng & Đội Cảnh sát PCCC & CNCH: Hướng dẫn, hỗ trợ phương án an toàn PCCC & CNCH khi có yêu cầu; tạo điều kiện thuận lợi để sự kiện diễn ra an toàn, tuân thủ đúng quy định pháp luật.\n\n[P 263] Liên hệ trực tiếp của Ban Tổ chức sự kiện:- Bà Trần Thúy Quyên – Trưởng Ban Tổ chức\n\n[P 264] - Điện thoại: 0369449925- Địa chỉ: HungHau Campus, Khu chức năng 13E, Đại lộ Nguyễn Văn Linh, Xã Bình Hưng, TP.HCM.\n\n[P 265] Trường Đại học Văn Hiến rất mong nhận được sự quan tâm, hỗ trợ và tạo điều kiện của Quý Cơ quan để Chương trình Văn hóa – Nghệ thuật tỉnh Đồng Tháp năm 2027 được diễn ra thành công tốt đẹp.Xin trân trọng cảm ơn!\n\n--- [TABLE 266 (1 rows x 2 cols)] ---\nR1: Nơi nhận:- Như trên;- Ban Giám hiệu (để b/c);- Công an Xã Bình Hưng;- Lưu: VT, BTC. | TM. BAN TỔ CHỨC NGÀY HỘITRƯỞNG BANTrần Thúy Quyên\n--- [END TABLE] ---"
+  }
+};
