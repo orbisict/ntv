@@ -562,37 +562,6 @@ html_template = f"""<!DOCTYPE html>
         </div>
       </div>
 
-      <!-- Visual Budget Stacked Bar -->
-      <div class="budget-visual-bar">
-        <div class="budget-bar-title">
-          <span>📊 Phân Bổ Tỷ Trọng Chi Phí 09 Nhóm Hạng Mục</span>
-          <span style="font-size: 0.9rem; color: var(--vhu-blue-primary);">Tổng chi dự toán: 104.074.748 đ</span>
-        </div>
-        <div class="budget-stacked-bar">
-          <div class="bar-segment" style="width: 17.1%; background: #18376b;" data-label="Nhóm A (Địa điểm & Dàn dựng): 17.820.000 đ"></div>
-          <div class="bar-segment" style="width: 6.2%; background: #285496;" data-label="Nhóm C (Ấn phẩm): 6.447.608 đ"></div>
-          <div class="bar-segment" style="width: 31.1%; background: #d49b19;" data-label="Nhóm D (Truyền thông & Báo chí): 32.400.000 đ"></div>
-          <div class="bar-segment" style="width: 8.3%; background: #f7b731;" data-label="Nhóm E (Nghệ thuật & Biểu diễn): 8.640.000 đ"></div>
-          <div class="bar-segment" style="width: 10.4%; background: #d83a6f;" data-label="Nhóm F (Khách mời & Nghệ sĩ): 10.800.000 đ"></div>
-          <div class="bar-segment" style="width: 10.5%; background: #e8437d;" data-label="Nhóm G (Quà tặng & Tri ân): 10.918.800 đ"></div>
-          <div class="bar-segment" style="width: 3.1%; background: #059669;" data-label="Nhóm H (Hậu cần, An ninh, Y tế): 3.240.000 đ"></div>
-          <div class="bar-segment" style="width: 4.2%; background: #0284c7;" data-label="Nhóm I (Phục vụ & Lưu trú): 4.347.000 đ"></div>
-          <div class="bar-segment" style="width: 9.1%; background: #64748b;" data-label="Nhóm K (Dự phòng 10%): 9.461.340 đ"></div>
-        </div>
-
-        <div class="budget-legend-grid">
-          <div class="legend-item"><span class="legend-color-dot" style="background: #18376b;"></span>Nhóm A: Dàn dựng (17,8M)</div>
-          <div class="legend-item"><span class="legend-color-dot" style="background: #285496;"></span>Nhóm C: Ấn phẩm (6,4M)</div>
-          <div class="legend-item"><span class="legend-color-dot" style="background: #d49b19;"></span>Nhóm D: Truyền thông (32,4M)</div>
-          <div class="legend-item"><span class="legend-color-dot" style="background: #f7b731;"></span>Nhóm E: Nghệ thuật (8,6M)</div>
-          <div class="legend-item"><span class="legend-color-dot" style="background: #d83a6f;"></span>Nhóm F: Khách mời (10,8M)</div>
-          <div class="legend-item"><span class="legend-color-dot" style="background: #e8437d;"></span>Nhóm G: Quà tặng (10,9M)</div>
-          <div class="legend-item"><span class="legend-color-dot" style="background: #059669;"></span>Nhóm H: An ninh/Y tế (3,2M)</div>
-          <div class="legend-item"><span class="legend-color-dot" style="background: #0284c7;"></span>Nhóm I: Phục vụ (4,3M)</div>
-          <div class="legend-item"><span class="legend-color-dot" style="background: #64748b;"></span>Nhóm K: Dự phòng (9,4M)</div>
-        </div>
-      </div>
-
       <!-- Budget Detail Search & Table -->
       <div style="margin-bottom: 30px;">
         <div class="search-filter-bar">
@@ -724,470 +693,221 @@ html_template = f"""<!DOCTYPE html>
 
       <!-- Gallery Grid -->
       <div class="gallery-grid">
-        <!-- 1. Poster chính -->
+        <!-- 1. H1. Poster -->
         <div class="gallery-item-card">
-          <div class="gallery-img-wrapper" data-lightbox data-src="./assets/docx_media/image1.png" data-title="H1. Poster chính thức sự kiện" data-caption="Poster quảng bá chính thức chương trình 'Chạm một sắc Sen' năm 2027">
-            <img src="./assets/docx_media/image1.png" alt="Poster sự kiện Chạm một sắc Sen" loading="lazy">
+          <div class="gallery-img-wrapper" data-lightbox data-src="./assets/docx_media/image1.png" data-title="H1. Poster" data-caption="Poster quảng bá chính thức Chương trình Văn hóa &amp; Nghệ thuật tỉnh Đồng Tháp năm 2027 'Chạm một sắc Sen'">
+            <img src="./assets/docx_media/image1.png" alt="H1. Poster" loading="lazy">
             <span class="gallery-overlay-badge">H1. Poster</span>
           </div>
           <div class="gallery-card-body">
             <div>
-              <h4 class="gallery-item-title">Poster Quảng Bá Chính Thức</h4>
-              <p class="gallery-item-caption">Thiết kế chủ đạo kết hợp đóa hoa sen Đồng Tháp và biểu tượng Khuê Văn Các Đại học Văn Hiến.</p>
+              <h4 class="gallery-item-title">H1. Poster</h4>
+              <p class="gallery-item-caption">Poster quảng bá chính thức kết hợp đóa sen Đồng Tháp và biểu tượng Khuê Văn Các Đại học Văn Hiến.</p>
             </div>
-            <div class="gallery-item-footer">
-              <span>🔍 Nhấn để xem phóng to</span>
+            <div class="gallery-item-meta">
+              <span><svg class="v-icon v-icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg> Bộ nhận diện</span>
+              <span class="font-bold text-primary">Kích thước A1</span>
             </div>
           </div>
         </div>
 
-        <!-- 2. Poster phiên bản 2 -->
+        <!-- 2. H1. Poster (Key Visual) -->
         <div class="gallery-item-card">
-          <div class="gallery-img-wrapper" data-lightbox data-src="./assets/docx_media/image2.png" data-title="H1. Poster phiên bản công bố khách mời" data-caption="Poster chi tiết các mốc hoạt động và công bố dàn nghệ sĩ">
-            <img src="./assets/docx_media/image2.png" alt="Poster chi tiết sự kiện" loading="lazy">
-            <span class="gallery-overlay-badge">H1. Poster Detail</span>
+          <div class="gallery-img-wrapper" data-lightbox data-src="./assets/docx_media/image2.png" data-title="H1. Poster (Key Visual)" data-caption="Key Visual hình ảnh hoa sen Đồng Tháp kết hợp các nghệ sĩ khách mời và bộ sưu tập áo dài">
+            <img src="./assets/docx_media/image2.png" alt="H1. Poster (Key Visual)" loading="lazy">
+            <span class="gallery-overlay-badge">H1. Key Visual</span>
           </div>
           <div class="gallery-card-body">
             <div>
-              <h4 class="gallery-item-title">Poster Lịch Trình Chi Tiết</h4>
-              <p class="gallery-item-caption">Thông tin các tiết mục Đờn ca tài tử, Fashion Show và ca sĩ khách mời Phương Mỹ Chi.</p>
+              <h4 class="gallery-item-title">H1. Poster (Key Visual)</h4>
+              <p class="gallery-item-caption">Key Visual tôn vinh vẻ đẹp áo dài truyền thống và hình ảnh các nghệ sĩ khách mời đồng hành.</p>
             </div>
-            <div class="gallery-item-footer">
-              <span>🔍 Nhấn để xem phóng to</span>
+            <div class="gallery-item-meta">
+              <span><svg class="v-icon v-icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg> Key Visual</span>
+              <span class="font-bold text-primary">Kích thước ngang</span>
             </div>
           </div>
         </div>
 
-        <!-- 3. Key Visual Nhà tài trợ -->
+        <!-- 3. Danh sách Nhà tài trợ -->
         <div class="gallery-item-card">
-          <div class="gallery-img-wrapper" data-lightbox data-src="./assets/docx_media/image3.png" data-title="Key Visual Nhà tài trợ" data-caption="Visual vinh danh các nhà tài trợ Kim Cương, Vàng, Bạc và Đơn vị đồng hành">
-            <img src="./assets/docx_media/image3.png" alt="Key visual nhà tài trợ" loading="lazy">
-            <span class="gallery-overlay-badge">Nhà Tài Trợ</span>
+          <div class="gallery-img-wrapper" data-lightbox data-src="./assets/docx_media/image3.png" data-title="Danh sách Nhà tài trợ" data-caption="Bảng nhận diện và tri ân các Nhà tài trợ Kim Cương, Vàng, Bạc và Đơn vị đồng hành">
+            <img src="./assets/docx_media/image3.png" alt="Danh sách Nhà tài trợ" loading="lazy">
+            <span class="gallery-overlay-badge">Nhà tài trợ</span>
           </div>
           <div class="gallery-card-body">
             <div>
-              <h4 class="gallery-item-title">Ấn Phẩm Tri Ân Nhà Tài Trợ</h4>
-              <p class="gallery-item-caption">Vinh danh sự đóng góp của các doanh nghiệp, thương hiệu thời trang và đơn vị kỹ thuật.</p>
+              <h4 class="gallery-item-title">Danh sách Nhà tài trợ</h4>
+              <p class="gallery-item-caption">Bảng vinh danh và tri ân các đơn vị, doanh nghiệp và đối tác tài trợ đồng hành cùng chương trình.</p>
             </div>
-            <div class="gallery-item-footer">
-              <span>🔍 Nhấn để xem phóng to</span>
+            <div class="gallery-item-meta">
+              <span><svg class="v-icon v-icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg> Quyền lợi</span>
+              <span class="font-bold text-primary">Màn hình LED &amp; Backdrop</span>
             </div>
           </div>
         </div>
 
-        <!-- 4. Background sân khấu chính -->
+        <!-- 4. H2. Background sân khấu chính -->
         <div class="gallery-item-card">
-          <div class="gallery-img-wrapper" data-lightbox data-src="./assets/docx_media/image4.jpeg" data-title="H2. Background Sân khấu chính" data-caption="Màn hình LED chính tại Hội trường Trần Hưng Đạo">
-            <img src="./assets/docx_media/image4.jpeg" alt="Background sân khấu chính" loading="lazy">
-            <span class="gallery-overlay-badge">H2. Background LED</span>
+          <div class="gallery-img-wrapper" data-lightbox data-src="./assets/docx_media/image5.jpeg" data-title="H2. Background sân khấu chính" data-caption="Màn hình LED sân khấu chính Hội trường Trần Hưng Đạo quy mô 800 chỗ ngồi Tầng 9">
+            <img src="./assets/docx_media/image5.jpeg" alt="H2. Background sân khấu chính" loading="lazy">
+            <span class="gallery-overlay-badge">H2. Background</span>
           </div>
           <div class="gallery-card-body">
             <div>
-              <h4 class="gallery-item-title">Background Sân Khấu Chính</h4>
-              <p class="gallery-item-caption">Đồ họa visual chuyển động trên màn hình LED lớn phục vụ các tiết mục nghệ thuật và Fashion Show.</p>
+              <h4 class="gallery-item-title">H2. Background sân khấu chính</h4>
+              <p class="gallery-item-caption">Background hiển thị trên màn hình LED lớn tại Hội trường Trần Hưng Đạo cho các tiết mục nghệ thuật.</p>
             </div>
-            <div class="gallery-item-footer">
-              <span>🔍 Nhấn để xem phóng to</span>
+            <div class="gallery-item-meta">
+              <span><svg class="v-icon v-icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg> Sân khấu</span>
+              <span class="font-bold text-primary">Màn hình P3</span>
             </div>
           </div>
         </div>
 
-        <!-- 5. Backdrop sự kiện -->
+        <!-- 5. H3. Matcos -->
         <div class="gallery-item-card">
-          <div class="gallery-img-wrapper" data-lightbox data-src="./assets/docx_media/image5.jpeg" data-title="H4. Backdrop Check-in" data-caption="Backdrop chụp ảnh lưu niệm tại Sảnh Trống Đồng">
-            <img src="./assets/docx_media/image5.jpeg" alt="Backdrop check-in" loading="lazy">
-            <span class="gallery-overlay-badge">H4. Backdrop Sảnh</span>
+          <div class="gallery-img-wrapper" data-lightbox data-src="./assets/docx_media/image6.jpeg" data-title="H3. Matcos" data-caption="Linh vật sự kiện Bé Gấu VHU &amp; Bé Sen Đồng Tháp">
+            <img src="./assets/docx_media/image6.jpeg" alt="H3. Matcos" loading="lazy">
+            <span class="gallery-overlay-badge">H3. Matcos</span>
           </div>
           <div class="gallery-card-body">
             <div>
-              <h4 class="gallery-item-title">Backdrop Chụp Ảnh Lưu Niệm</h4>
-              <p class="gallery-item-caption">Khu vực đón tiếp đại biểu, hoa hậu và sinh viên check-in ghi dấu kỷ niệm ngày hội.</p>
+              <h4 class="gallery-item-title">H3. Matcos</h4>
+              <p class="gallery-item-caption">Bộ đôi linh vật biểu trưng Bé Gấu VHU và Bé Sen Đồng Tháp tạo không khí gần gũi, sôi nổi cho sinh viên.</p>
             </div>
-            <div class="gallery-item-footer">
-              <span>🔍 Nhấn để xem phóng to</span>
+            <div class="gallery-item-meta">
+              <span><svg class="v-icon v-icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg> Tương tác</span>
+              <span class="font-bold text-primary">Linh vật sự kiện</span>
             </div>
           </div>
         </div>
 
-        <!-- 6. Mascot VHU & Bé Sen -->
+        <!-- 6. H4. Backdrop -->
         <div class="gallery-item-card">
-          <div class="gallery-img-wrapper" data-lightbox data-src="./assets/docx_media/image6.jpeg" data-title="H3. Mascot Sự kiện" data-caption="Mascot Bé Sen Đồng Tháp kết hợp cùng Mascot VHU">
-            <img src="./assets/docx_media/image6.jpeg" alt="Mascot Bé Sen và VHU" loading="lazy">
-            <span class="gallery-overlay-badge">H3. Mascot Bé Sen</span>
+          <div class="gallery-img-wrapper" data-lightbox data-src="./assets/docx_media/image4.jpeg" data-title="H4. Backdrop" data-caption="Backdrop check-in và chụp ảnh lưu niệm tại Sảnh đón tiếp">
+            <img src="./assets/docx_media/image4.jpeg" alt="H4. Backdrop" loading="lazy">
+            <span class="gallery-overlay-badge">H4. Backdrop</span>
           </div>
           <div class="gallery-card-body">
             <div>
-              <h4 class="gallery-item-title">Mascot Bé Sen & Mascot VHU</h4>
-              <p class="gallery-item-caption">Nhân vật biểu trưng tạo bầu không khí hào hứng, gần gũi cho sinh viên và khách tham quan.</p>
+              <h4 class="gallery-item-title">H4. Backdrop</h4>
+              <p class="gallery-item-caption">Backdrop chụp ảnh check-in thiết kế 3D cánh sen lớn dành cho khách mời danh dự và sinh viên.</p>
             </div>
-            <div class="gallery-item-footer">
-              <span>🔍 Nhấn để xem phóng to</span>
+            <div class="gallery-item-meta">
+              <span><svg class="v-icon v-icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg> Sảnh đón tiếp</span>
+              <span class="font-bold text-primary">Check-in Photo</span>
             </div>
           </div>
         </div>
 
-        <!-- 7. Standee sự kiện -->
+        <!-- 7. H5. Standee -->
         <div class="gallery-item-card">
-          <div class="gallery-img-wrapper" data-lightbox data-src="./assets/docx_media/image7.jpeg" data-title="H5. Standee chỉ dẫn" data-caption="Hệ thống standee đặt tại các sảnh và lối lên thang máy Tầng 9">
-            <img src="./assets/docx_media/image7.jpeg" alt="Standee chỉ dẫn" loading="lazy">
+          <div class="gallery-img-wrapper" data-lightbox data-src="./assets/docx_media/image9.jpeg" data-title="H5. Standee" data-caption="Standee chỉ dẫn và phân luồng đặt tại sảnh Campus">
+            <img src="./assets/docx_media/image9.jpeg" alt="H5. Standee" loading="lazy">
             <span class="gallery-overlay-badge">H5. Standee</span>
           </div>
           <div class="gallery-card-body">
             <div>
-              <h4 class="gallery-item-title">Hệ Thống Standee Phân Luồng</h4>
-              <p class="gallery-item-caption">Hướng dẫn sinh viên và khách mời đến đúng vị trí bàn check-in, booth tài trợ và hội trường.</p>
+              <h4 class="gallery-item-title">H5. Standee</h4>
+              <p class="gallery-item-caption">Hệ thống standee dọc chỉ dẫn lối vào Hội trường Tầng 9 và thông tin các mốc thời gian chương trình.</p>
             </div>
-            <div class="gallery-item-footer">
-              <span>🔍 Nhấn để xem phóng to</span>
+            <div class="gallery-item-meta">
+              <span><svg class="v-icon v-icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg> Chỉ dẫn</span>
+              <span class="font-bold text-primary">0.8m x 1.8m</span>
             </div>
           </div>
         </div>
 
-        <!-- 8. Sơ đồ mặt bằng -->
+        <!-- 8. H6. Sơ đồ khu vực Sảnh Trống Đồng -->
         <div class="gallery-item-card">
-          <div class="gallery-img-wrapper" data-lightbox data-src="./assets/docx_media/image8.jpeg" data-title="H6. Sơ đồ khu vực Sảnh Trống Đồng và Hội trường" data-caption="Sơ đồ bố trí gian hàng, sân khấu, lối thoát hiểm và bàn đón tiếp">
-            <img src="./assets/docx_media/image8.jpeg" alt="Sơ đồ mặt bằng sảnh Trống Đồng và Hội trường" loading="lazy">
-            <span class="gallery-overlay-badge">H6. Sơ Đồ Mặt Bằng</span>
+          <div class="gallery-img-wrapper" data-lightbox data-src="./assets/docx_media/image8.jpeg" data-title="H6. Sơ đồ khu vực Sảnh Trống Đồng" data-caption="Phối cảnh 3D tổng thể không gian Sảnh Trống Đồng và khu vực gian hàng trải nghiệm">
+            <img src="./assets/docx_media/image8.jpeg" alt="H6. Sơ đồ khu vực Sảnh Trống Đồng" loading="lazy">
+            <span class="gallery-overlay-badge">H6. Sơ đồ Sảnh</span>
           </div>
           <div class="gallery-card-body">
             <div>
-              <h4 class="gallery-item-title">Sơ Đồ Mặt Bằng Sảnh & Hội Trường</h4>
-              <p class="gallery-item-caption">Bố trí 04 gian hàng nhà tài trợ, Góc Khát vọng VHU, trạm y tế và hành lang an toàn PCCC.</p>
+              <h4 class="gallery-item-title">H6. Sơ đồ khu vực Sảnh Trống Đồng</h4>
+              <p class="gallery-item-caption">Phối cảnh tổng thể không gian đón tiếp, các gian hàng doanh nghiệp và khu trải nghiệm văn hóa.</p>
             </div>
-            <div class="gallery-item-footer">
-              <span>🔍 Nhấn để xem phóng to</span>
+            <div class="gallery-item-meta">
+              <span><svg class="v-icon v-icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg> Không gian</span>
+              <span class="font-bold text-primary">Phối cảnh 3D</span>
             </div>
           </div>
         </div>
 
-        <!-- 9. Standee dọc -->
+        <!-- 9. H6. Sơ đồ bố trí hội trường Trần Hưng Đạo -->
         <div class="gallery-item-card">
-          <div class="gallery-img-wrapper" data-lightbox data-src="./assets/docx_media/image9.jpeg" data-title="H5. Standee dọc cổng Campus" data-caption="Standee dọc kích thước lớn đặt tại cổng vào HungHau Campus">
-            <img src="./assets/docx_media/image9.jpeg" alt="Standee dọc cổng campus" loading="lazy">
-            <span class="gallery-overlay-badge">H5. Standee Cổng</span>
+          <div class="gallery-img-wrapper" data-lightbox data-src="./assets/docx_media/image7.jpeg" data-title="H6. Sơ đồ bố trí hội trường Trần Hưng Đạo" data-caption="Mặt bằng kỹ thuật bố trí sân khấu, phân khu chỗ ngồi đại biểu và lối thoát hiểm">
+            <img src="./assets/docx_media/image7.jpeg" alt="H6. Sơ đồ bố trí hội trường Trần Hưng Đạo" loading="lazy">
+            <span class="gallery-overlay-badge">H6. Sơ đồ HT</span>
           </div>
           <div class="gallery-card-body">
             <div>
-              <h4 class="gallery-item-title">Standee Cổng HungHau Campus</h4>
-              <p class="gallery-item-caption">Định vị sự kiện ngay từ lối vào khuôn viên số 13E Đại lộ Nguyễn Văn Linh.</p>
+              <h4 class="gallery-item-title">H6. Sơ đồ bố trí hội trường Trần Hưng Đạo</h4>
+              <p class="gallery-item-caption">Sơ đồ kỹ thuật phân khu chỗ ngồi 800 khách, vị trí điều phối âm thanh ánh sáng và an toàn PCCC.</p>
             </div>
-            <div class="gallery-item-footer">
-              <span>🔍 Nhấn để xem phóng to</span>
+            <div class="gallery-item-meta">
+              <span><svg class="v-icon v-icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg> Kỹ thuật</span>
+              <span class="font-bold text-primary">Bản vẽ mặt bằng</span>
             </div>
           </div>
         </div>
 
-        <!-- 10. Quà tặng sự kiện -->
+        <!-- 10. H8. Quà tặng sự kiện -->
         <div class="gallery-item-card">
-          <div class="gallery-img-wrapper" data-lightbox data-src="./assets/docx_media/image10.png" data-title="H8. Quà tặng sự kiện" data-caption="Khăn bandana thiết kế độc quyền 50x50cm và kỷ niệm chương tri ân">
-            <img src="./assets/docx_media/image10.png" alt="Quà tặng khăn bandana và kỷ niệm chương" loading="lazy">
-            <span class="gallery-overlay-badge">H8. Quà Tặng</span>
+          <div class="gallery-img-wrapper" data-lightbox data-src="./assets/docx_media/image10.png" data-title="H8. Quà tặng sự kiện" data-caption="Bộ quà tặng Sen Passport, khăn rằn Nam Bộ độc quyền và ấn phẩm lưu niệm">
+            <img src="./assets/docx_media/image10.png" alt="H8. Quà tặng sự kiện" loading="lazy">
+            <span class="gallery-overlay-badge">H8. Quà tặng sự kiện</span>
           </div>
           <div class="gallery-card-body">
             <div>
-              <h4 class="gallery-item-title">Quà Tặng & Kỷ Niệm Chương</h4>
-              <p class="gallery-item-caption">320 khăn bandana hoa sen cách điệu dành cho sinh viên và kỷ niệm chương vinh danh VIP.</p>
+              <h4 class="gallery-item-title">H8. Quà tặng sự kiện</h4>
+              <p class="gallery-item-caption">Bộ ấn phẩm Sen Passport, khăn rằn và các phần quà lưu niệm văn hóa Sen trao tặng khách mời &amp; sinh viên.</p>
             </div>
-            <div class="gallery-item-footer">
-              <span>🔍 Nhấn để xem phóng to</span>
+            <div class="gallery-item-meta">
+              <span><svg class="v-icon v-icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg> Lưu niệm</span>
+              <span class="font-bold text-primary">Bộ quà tặng Sen</span>
             </div>
           </div>
         </div>
 
-        <!-- 11. Thư mời & Thư cảm ơn -->
+        <!-- 11. H9. Thư mời & thư cảm ơn -->
         <div class="gallery-item-card">
-          <div class="gallery-img-wrapper" data-lightbox data-src="./assets/docx_media/image11.jpeg" data-title="H9. Thư mời & Thư cảm ơn" data-caption="Bộ ấn phẩm thư mời trang trọng gửi Đại biểu VIP và thư tri ân">
-            <img src="./assets/docx_media/image11.jpeg" alt="Thư mời và thư cảm ơn sự kiện" loading="lazy">
-            <span class="gallery-overlay-badge">H9. Thư Mời</span>
+          <div class="gallery-img-wrapper" data-lightbox data-src="./assets/docx_media/image11.jpeg" data-title="H9. Thư mời &amp; thư cảm ơn" data-caption="Bộ thiệp Thư Mời đại biểu trang trọng và Thư Cảm Ơn tri ân các đơn vị tài trợ">
+            <img src="./assets/docx_media/image11.jpeg" alt="H9. Thư mời &amp; thư cảm ơn" loading="lazy">
+            <span class="gallery-overlay-badge">H9. Thư mời</span>
           </div>
           <div class="gallery-card-body">
             <div>
-              <h4 class="gallery-item-title">Thư Mời & Thư Tri Ân Trang Trọng</h4>
-              <p class="gallery-item-caption">Thiết kế đồng bộ nhận diện thương hiệu Văn Hiến gửi các đại biểu tỉnh Đồng Tháp và doanh nghiệp.</p>
+              <h4 class="gallery-item-title">H9. Thư mời &amp; thư cảm ơn</h4>
+              <p class="gallery-item-caption">Thiết kế đồng bộ nhận diện thương hiệu Văn Hiến gửi Lãnh đạo tỉnh, Doanh nghiệp và Đối tác.</p>
             </div>
-            <div class="gallery-item-footer">
-              <span>🔍 Nhấn để xem phóng to</span>
+            <div class="gallery-item-meta">
+              <span><svg class="v-icon v-icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg> Đối ngoại</span>
+              <span class="font-bold text-primary">In offset ép kim</span>
             </div>
           </div>
         </div>
 
-        <!-- 12. Nhạc độc quyền QR -->
+        <!-- 12. H9. Nhạc độc quyền sự kiện -->
         <div class="gallery-item-card">
-          <div class="gallery-img-wrapper" data-lightbox data-src="./assets/docx_media/image12.png" data-title="H9. Nhạc độc quyền sự kiện" data-caption="Mã QR và biểu tượng giai điệu chủ đề 'Chạm một sắc Sen'">
-            <img src="./assets/docx_media/image12.png" alt="Mã QR nhạc độc quyền sự kiện" loading="lazy">
-            <span class="gallery-overlay-badge">H9/H10. Âm Nhạc</span>
+          <div class="gallery-img-wrapper qr-wrapper" data-lightbox data-src="./assets/docx_media/image12.png" data-title="H9. Nhạc độc quyền sự kiện" data-caption="Quét mã QR để nghe ca khúc chủ đề 'Chạm Một Sắc Sen' độc quyền trên điện thoại">
+            <img src="./assets/docx_media/image12.png" alt="H9. Nhạc độc quyền sự kiện" class="qr-centered-img" loading="lazy">
+            <span class="gallery-overlay-badge">H9. Nhạc sự kiện</span>
           </div>
           <div class="gallery-card-body">
             <div>
-              <h4 class="gallery-item-title">Nhạc Độc Quyền Sự Kiện</h4>
-              <p class="gallery-item-caption">Bản nhạc chủ đề hòa trộn âm sắc đờn ca tài tử sông nước và nhịp điệu tuổi trẻ hiện đại.</p>
+              <h4 class="gallery-item-title">H9. Nhạc độc quyền sự kiện</h4>
+              <p class="gallery-item-caption">Quét mã QR trực tiếp trên điện thoại để thưởng thức bản phối độc quyền ca khúc chủ đề "Chạm Một Sắc Sen".</p>
             </div>
-            <div class="gallery-item-footer">
-              <span>🔍 Nhấn để xem phóng to</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Audio Box -->
-      <div class="audio-card-box">
-        <div class="audio-info-side">
-          <img src="./assets/docx_media/image12.png" alt="QR Nhạc sự kiện" class="audio-qr-thumb">
-          <div class="audio-meta">
-            <h4>🎵 Giai Điệu Chủ Đề: "Chạm Một Sắc Sen"</h4>
-            <p>Hòa âm độc quyền: Kết hợp ngũ cung Nam Bộ, đờn kìm, đờn tranh và dàn nhạc hiện đại VHU</p>
-          </div>
-        </div>
-        <div style="display: flex; align-items: center; gap: 24px;">
-          <div class="equalizer-wave">
-            <div class="eq-bar" style="animation-play-state: paused;"></div>
-            <div class="eq-bar" style="animation-play-state: paused;"></div>
-            <div class="eq-bar" style="animation-play-state: paused;"></div>
-            <div class="eq-bar" style="animation-play-state: paused;"></div>
-            <div class="eq-bar" style="animation-play-state: paused;"></div>
-            <div class="eq-bar" style="animation-play-state: paused;"></div>
-          </div>
-          <button class="btn-play-preview" id="btn-audio-toggle">▶ Nghe thử giai điệu</button>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SECTION 7: APPENDICES & OFFICIAL DOSSIER -->
-  <section id="appendices" class="section">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-tag tag-gold">HỒ SƠ PHÁP LÝ & PHỤ LỤC HÀNH CHÍNH</span>
-        <h2 class="section-title">Văn Bản Pháp Lý & Tờ Trình Đề Án Chính Thức</h2>
-        <p class="section-desc">Bộ 05 văn bản hành chính đầy đủ theo chuẩn thể thức quản lý nhà nước: Tờ trình Ban Giám hiệu, Đơn xin cơ sở vật chất, Thỏa thuận tài trợ thời trang, Công văn gửi Sở VHTT TP.HCM và Công văn phối hợp ANTT địa phương.</p>
-      </div>
-
-      <!-- Appendix Nav Pills -->
-      <div class="appendix-nav-pill-group">
-        <button class="app-pill-btn active" data-target="app1-doc">📄 Phụ lục 1: Tờ trình Ban Giám hiệu</button>
-        <button class="app-pill-btn" data-target="app2-doc">🏢 Phụ lục 2: Đơn xin sử dụng địa điểm</button>
-        <button class="app-pill-btn" data-target="app3-doc">👗 Phụ lục 3: Thỏa thuận BST "Miệt Cù Lao"</button>
-        <button class="app-pill-btn" data-target="app4-doc">🏛️ Phụ lục 4: Công văn gửi Sở VHTT TP.HCM</button>
-        <button class="app-pill-btn" data-target="app5-doc">🛡️ Phụ lục 5: Công văn ANTT, PCCC & ATGT</button>
-      </div>
-
-      <!-- Document Containers -->
-      <div class="appendix-content-area">
-        {apps['app1']}
-        {apps['app2']}
-        {apps['app3']}
-        {apps['app4']}
-        {apps['app5']}
-      </div>
-    </div>
-  </section>
-
-  <!-- SECTION 8: REGISTRATION & CONTACT -->
-  <section id="register-contact" class="section bg-alt">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-tag tag-pink">ĐĂNG KÝ & LIÊN HỆ BAN TỔ CHỨC</span>
-        <h2 class="section-title">Nhận Vé Mời "Passport Sen" & Kết Nối Đồng Hành</h2>
-        <p class="section-desc">Số lượng có hạn (300 chỗ ngồi miễn phí dành cho sinh viên và đại biểu khách mời). Đăng ký ngay để nhận vé điện tử kèm mã QR check-in cá nhân.</p>
-      </div>
-
-      <div class="reg-contact-grid">
-        <!-- Registration Form Card -->
-        <div class="ticket-form-card">
-          <h3 style="font-size: 1.35rem; font-weight: 800; color: var(--vhu-blue-primary); margin-bottom: 20px;">🎟️ Cổng Đăng Ký Vé Trực Tuyến</h3>
-          <form id="ticket-reg-form">
-            <div class="form-group">
-              <label for="reg-fullname" class="form-label">Họ và tên người tham dự *</label>
-              <input type="text" id="reg-fullname" class="form-control" placeholder="Ví dụ: Nguyễn Văn A" required>
-            </div>
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
-              <div class="form-group">
-                <label for="reg-mssv" class="form-label">Mã số sinh viên (MSSV) *</label>
-                <input type="text" id="reg-mssv" class="form-control" placeholder="Ví dụ: 241A010999" required>
-              </div>
-              <div class="form-group">
-                <label for="reg-faculty" class="form-label">Khoa / Đơn vị *</label>
-                <select id="reg-faculty" class="form-control" required>
-                  <option value="Khoa Nghệ thuật & Thời trang">Khoa Nghệ thuật & Thời trang</option>
-                  <option value="Khoa Du lịch">Khoa Du lịch</option>
-                  <option value="Khoa Kinh tế - Quản trị">Khoa Kinh tế - Quản trị</option>
-                  <option value="Khoa KHXH & Nhân văn">Khoa KHXH & Nhân văn</option>
-                  <option value="Khoa CNTT - Viễn thông">Khoa CNTT - Viễn thông</option>
-                  <option value="Đại biểu / Khách mời Doanh nghiệp">Đại biểu / Khách mời Doanh nghiệp</option>
-                  <option value="Khoa khác thuộc VHU">Khoa khác thuộc VHU</option>
-                </select>
-              </div>
-            </div>
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
-              <div class="form-group">
-                <label for="reg-email" class="form-label">Địa chỉ Email *</label>
-                <input type="email" id="reg-email" class="form-control" placeholder="email@vhu.edu.vn" required>
-              </div>
-              <div class="form-group">
-                <label for="reg-phone" class="form-label">Số điện thoại liên lạc *</label>
-                <input type="tel" id="reg-phone" class="form-control" placeholder="090xxxxxxx" required>
-              </div>
-            </div>
-            <div class="form-group">
-              <label class="form-label">Quyền lợi nhận được khi tham dự:</label>
-              <div style="font-size: 0.85rem; color: var(--text-secondary); background: #f1f5f9; padding: 12px 14px; border-radius: var(--radius-md); line-height: 1.5;">
-                🌸 01 Cuốn Passport Sen check-in các gian hàng<br>
-                🎁 01 Khăn bandana hoa sen 50x50cm độc quyền<br>
-                ✨ Cơ hội giao lưu trực tiếp cùng Chủ tịch Tập đoàn Hùng Hậu & Ca sĩ Phương Mỹ Chi, 2 Hoa hậu
-              </div>
-            </div>
-            <button type="submit" class="btn-primary-gold" style="width: 100%; justify-content: center; margin-top: 10px;">
-              ✨ Xác Nhận Đăng Ký & Tạo Vé QR Code
-            </button>
-          </form>
-        </div>
-
-        <!-- Official Contact Card -->
-        <div class="contact-info-card">
-          <h3>🏛️ Ban Tổ Chức Sự Kiện</h3>
-          <p style="font-size: 0.9rem; color: #e2e8f0; margin-bottom: 24px;">Trường Đại học Văn Hiến trân trọng kính mời Quý Doanh nghiệp, Đối tác truyền thông và các bạn sinh viên cùng tham gia kiến tạo một ngày hội văn hóa ý nghĩa.</p>
-
-          <div class="contact-item-row">
-            <div class="contact-icon">👤</div>
-            <div>
-              <div style="font-size: 0.8rem; text-transform: uppercase; color: var(--vhu-gold-light); font-weight: 700;">Đại diện Ban Tổ chức</div>
-              <div style="font-size: 1.05rem; font-weight: 800;">Bà Trần Thúy Quyên</div>
-              <div style="font-size: 0.85rem; opacity: 0.9;">Trưởng Ban Tổ chức Ngày hội</div>
+            <div class="gallery-item-meta">
+              <span><svg class="v-icon v-icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg> Âm nhạc độc quyền</span>
+              <span class="font-bold text-primary">Scan QR Code</span>
             </div>
           </div>
-
-          <div class="contact-item-row">
-            <div class="contact-icon">📞</div>
-            <div>
-              <div style="font-size: 0.8rem; text-transform: uppercase; color: var(--vhu-gold-light); font-weight: 700;">Điện thoại liên hệ</div>
-              <div style="font-size: 1.05rem; font-weight: 800;">0369.449.925</div>
-              <div style="font-size: 0.85rem; opacity: 0.9;">Hỗ trợ thông tin tài trợ & báo chí</div>
-            </div>
-          </div>
-
-          <div class="contact-item-row">
-            <div class="contact-icon">📍</div>
-            <div>
-              <div style="font-size: 0.8rem; text-transform: uppercase; color: var(--vhu-gold-light); font-weight: 700;">Địa điểm diễn ra sự kiện</div>
-              <div style="font-size: 0.95rem; font-weight: 700; line-height: 1.4;">Tầng 9, Hội trường Trần Hưng Đạo & Sảnh Trống Đồng, HungHau Campus</div>
-              <div style="font-size: 0.85rem; opacity: 0.9;">Khu chức năng số 13E, Đại lộ Nguyễn Văn Linh, Xã Bình Hưng, TP.HCM</div>
-            </div>
-          </div>
-
-          <div class="charity-notice-box">
-            <h5>❤️ Đơn Vị Thụ Hưởng Thiện Nguyện</h5>
-            <p><strong>Trung tâm Bảo trợ Xã hội Tổng hợp tỉnh Đồng Tháp</strong><br>
-            Toàn bộ thặng dư tài chính sau sự kiện (+200.925.252 đ) sẽ được trao tặng trực tiếp để hỗ trợ chăm lo người già neo đơn, trẻ em có hoàn cảnh đặc biệt khó khăn tại quê hương Đất Sen Hồng.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- LIGHTBOX DIALOG -->
-  <dialog id="image-lightbox-dialog" aria-labelledby="modal-title">
-    <div class="modal-inner">
-      <div class="modal-header-bar">
-        <h4 id="modal-title" class="modal-title-text">Chi tiết ấn phẩm</h4>
-        <button class="modal-close-btn" aria-label="Đóng">&times;</button>
-      </div>
-      <div class="modal-body-content">
-        <img src="" alt="Hình ảnh phóng to" class="modal-preview-img">
-        <p class="modal-caption-text"></p>
-      </div>
-    </div>
-  </dialog>
-
-  <!-- TICKET RESULT DIALOG -->
-  <dialog id="ticket-result-dialog" aria-labelledby="ticket-modal-title">
-    <div class="modal-inner" style="max-width: 520px;">
-      <div class="modal-header-bar" style="background: var(--vhu-blue-dark);">
-        <h4 id="ticket-modal-title">🎟️ Vé Mời Điện Tử - Passport Sen</h4>
-        <button class="modal-close-btn ticket-close-btn" aria-label="Đóng">&times;</button>
-      </div>
-      <div class="modal-body-content">
-        <div class="passport-sen-card">
-          <div class="passport-sen-header">
-            <div>
-              <div style="font-size: 0.75rem; text-transform: uppercase; color: var(--vhu-gold-light); font-weight: 800;">ĐẠI HỌC VĂN HIẾN • HUNGHAU HOLDINGS</div>
-              <div style="font-size: 1.15rem; font-weight: 900; color: #fff;">CHẠM MỘT SẮC SEN 2027</div>
-            </div>
-            <img src="./assets/images/logo-VHU.png" alt="Logo VHU" style="height: 40px; width: auto; background: #fff; padding: 2px; border-radius: 4px;">
-          </div>
-
-          <div style="text-align: center;">
-            <img src="./assets/docx_media/image12.png" alt="QR Code" class="passport-qr-code">
-            <div style="font-size: 1.2rem; font-weight: 900; letter-spacing: 0.1em; color: var(--vhu-gold-light); margin-bottom: 12px;" id="ticket-display-code">VHU-SEN-886699</div>
-          </div>
-
-          <div style="border-top: 1px dashed rgba(255,255,255,0.25); padding-top: 12px; font-size: 0.88rem; line-height: 1.6;">
-            <div><strong>Khách mời:</strong> <span id="ticket-display-name">Nguyễn Văn A</span></div>
-            <div><strong>MSSV / Mã định danh:</strong> <span id="ticket-display-mssv">241A010999</span></div>
-            <div><strong>Khoa / Đơn vị:</strong> <span id="ticket-display-faculty">Khoa Du lịch</span></div>
-            <div><strong>Thời gian:</strong> 07:30, Ngày 20/06/2027</div>
-            <div><strong>Vị trí:</strong> Tầng 9, Hội trường Trần Hưng Đạo, HungHau Campus</div>
-          </div>
-        </div>
-
-        <p style="margin-top: 16px; font-size: 0.85rem; color: var(--text-muted);">
-          Vui lòng chụp màn hình hoặc lưu mã vé này để quét QR code tại bàn đón tiếp Tầng 9.
-        </p>
-      </div>
-    </div>
-  </dialog>
-
-  <!-- Back to Top Button -->
-  <button id="back-to-top-btn" class="back-to-top" aria-label="Lên đầu trang">↑</button>
-
-  <!-- Footer -->
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px;">
-            <img src="./assets/images/logo-VHU.png" alt="Logo VHU" style="height: 48px; width: auto; background: #fff; padding: 4px; border-radius: 6px;">
-            <div>
-              <h4 style="margin: 0;">TRƯỜNG ĐẠI HỌC VĂN HIẾN</h4>
-              <div style="font-size: 0.78rem; color: #94a3b8;">VAN HIEN UNIVERSITY</div>
-            </div>
-          </div>
-          <div class="footer-slogan">"THÀNH NHÂN TRƯỚC KHI THÀNH DANH"</div>
-          <p style="font-size: 0.88rem; line-height: 1.6; color: #cbd5e1; max-width: 480px;">
-            Chương trình Văn hoá & Nghệ thuật tỉnh Đồng Tháp năm 2027 - "Chạm một sắc Sen". Sự kiện văn hóa học đường kết hợp tri thức, bảo tồn di sản sông nước Nam Bộ và hoạt động thiện nguyện xã hội ý nghĩa.
-          </p>
-        </div>
-
-        <div class="footer-col">
-          <h5>Liên Kết Nhanh</h5>
-          <ul class="footer-links">
-            <li><a href="#overview">Tổng quan sự kiện</a></li>
-            <li><a href="#agenda">Kịch bản chương trình</a></li>
-            <li><a href="#media-plan">Kế hoạch truyền thông</a></li>
-            <li><a href="#risks-kpi">Quản trị rủi ro & KPI</a></li>
-            <li><a href="#budget">Dự trù kinh phí & Tài trợ</a></li>
-            <li><a href="#creative">Bộ nhận diện thiết kế</a></li>
-            <li><a href="#appendices">Hồ sơ pháp lý 5 Phụ lục</a></li>
-          </ul>
-        </div>
-
-        <div class="footer-col">
-          <h5>Đơn Vị Đồng Hành</h5>
-          <ul class="footer-links">
-            <li>Tập đoàn Hùng Hậu (HungHau Holdings)</li>
-            <li>Tỉnh Đồng Tháp (Đơn vị kết nối văn hóa)</li>
-            <li>NTK Nguyễn Minh Công (BST "Miệt Cù Lao")</li>
-            <li>Trang phục biểu diễn DIVIT</li>
-            <li>Công ty Công nghệ Orbis ICT</li>
-            <li>Báo Pháp Luật Việt Nam</li>
-            <li>Đài PT-TH Đồng Tháp</li>
-            <li>TT Bảo trợ Xã hội Tổng hợp Đồng Tháp</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="footer-bottom">
-        <p>© 2027 Trường Đại học Văn Hiến (VHU). Toàn bộ nội dung và ấn phẩm thuộc bản quyền của Ban Tổ chức Chương trình "Chạm một sắc Sen".</p>
-      </div>
+        </div></div>
     </div>
   </footer>
 
