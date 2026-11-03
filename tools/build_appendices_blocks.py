@@ -169,7 +169,7 @@ app1_html = """
       <div class="sign-title">TM. BAN TỔ CHỨC SỰ KIỆN</div>
       <div class="sign-title">TRƯỞNG BAN TỔ CHỨC</div>
       <div class="sign-note">(Ký và ghi rõ họ tên)</div>
-      <img src="./assets/docx_media/image13.png" alt="Dấu mộc xác thực" class="stamp-seal-img">
+      <div class="sign-space" style="height: 60px;"></div>
       <div class="sign-name">Trần Thúy Quyên</div>
     </div>
   </div>
@@ -299,7 +299,7 @@ app2_html = """
       <div class="sign-title">TM. BAN TỔ CHỨC SỰ KIỆN</div>
       <div class="sign-title">TRƯỞNG BAN TỔ CHỨC</div>
       <div class="sign-note">(Ký và ghi rõ họ tên)</div>
-      <img src="./assets/docx_media/image13.png" alt="Dấu mộc xác thực" class="stamp-seal-img">
+      <div class="sign-space" style="height: 60px;"></div>
       <div class="sign-name">Trần Thúy Quyên</div>
     </div>
   </div>
@@ -394,7 +394,7 @@ app3_html = """
     <div class="doc-sign-col-left" style="text-align: center;">
       <div class="sign-title">ĐẠI DIỆN BÊN A<br>TRƯỜNG ĐẠI HỌC VĂN HIẾN<br>TRƯỞNG BAN TỔ CHỨC</div>
       <div class="sign-note">(Ký, ghi rõ họ tên và đóng dấu)</div>
-      <img src="./assets/docx_media/image13.png" alt="Dấu mộc xác thực" class="stamp-seal-img">
+      <div class="sign-space" style="height: 60px;"></div>
       <div class="sign-name">Trần Thúy Quyên</div>
     </div>
     <div class="doc-sign-col-right">
@@ -623,7 +623,7 @@ app5_html = """
       <div class="sign-title">TM. BAN TỔ CHỨC NGÀY HỘI</div>
       <div class="sign-title">TRƯỞNG BAN TỔ CHỨC</div>
       <div class="sign-note">(Ký, ghi rõ họ tên và đóng dấu)</div>
-      <img src="./assets/docx_media/image13.png" alt="Dấu mộc xác thực" class="stamp-seal-img">
+      <div class="sign-space" style="height: 60px;"></div>
       <div class="sign-name">Trần Thúy Quyên</div>
     </div>
   </div>
