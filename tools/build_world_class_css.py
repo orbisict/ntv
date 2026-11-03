@@ -348,6 +348,11 @@ button, input, select, textarea {
   cursor: pointer;
 }
 
+/* Mobile Floating Bar hidden on desktop */
+.mobile-floating-bar {
+  display: none !important;
+}
+
 /* Modern App-grade Mobile Navigation Drawer & Backdrop */
 .mobile-nav-backdrop {
   position: fixed !important;
@@ -3422,7 +3427,7 @@ button, input, select, textarea {
 
   /* Mobile Floating Action Bar */
   .mobile-floating-bar {
-    display: flex;
+    display: flex !important;
     position: fixed;
     bottom: 0;
     left: 0;
