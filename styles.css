@@ -561,8 +561,8 @@ button, input, select, textarea {
 
 .hero-widescreen-grid {
   display: grid;
-  grid-template-columns: 1.15fr 0.85fr;
-  gap: 48px;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 40px;
   align-items: center;
   margin-bottom: 44px;
 }
@@ -806,11 +806,11 @@ button, input, select, textarea {
 
 .hero-showcase-master-card {
   width: 100%;
-  max-width: 520px;
+  max-width: 580px;
   background: rgba(7, 21, 46, 0.92);
   border: 1px solid rgba(247, 183, 49, 0.35);
   border-radius: var(--radius-xl);
-  padding: 24px;
+  padding: 26px 24px;
   box-shadow: 0 16px 48px rgba(0, 0, 0, 0.55), 0 0 24px rgba(212, 155, 25, 0.15);
   backdrop-filter: blur(16px);
   display: flex;
@@ -936,9 +936,9 @@ button, input, select, textarea {
 
 .stage-specs-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 8px;
-  padding: 12px;
+  grid-template-columns: 1fr 1.25fr 1.6fr;
+  gap: 10px;
+  padding: 12px 14px;
   background: rgba(11, 31, 66, 0.8);
   border-radius: var(--radius-md);
   border: 1px solid rgba(255, 255, 255, 0.08);
@@ -959,6 +959,7 @@ button, input, select, textarea {
   font-size: 0.82rem;
   font-weight: 700;
   color: #ffffff;
+  white-space: nowrap;
 }
 
 .highlight-gold {
@@ -994,9 +995,10 @@ button, input, select, textarea {
 }
 
 .audio-capsule-title {
-  font-size: 0.84rem;
+  font-size: 0.85rem;
   font-weight: 700;
   color: #ffffff;
+  white-space: nowrap;
 }
 
 .equalizer-wave {
@@ -2188,22 +2190,33 @@ button, input, select, textarea {
 .tier-privileges {
   list-style: none;
   font-size: 0.82rem;
-  color: var(--text-secondary);
+  color: #475569;
   display: flex;
   flex-direction: column;
   gap: 10px;
-  line-height: 1.45;
+  line-height: 1.5;
 }
 
 .tier-privileges li {
-  display: flex;
-  align-items: flex-start;
+  display: grid;
+  grid-template-columns: 18px 1fr;
+  align-items: start;
   gap: 8px;
+  text-align: left;
 }
 
 .tier-privileges li .v-icon {
   color: #10b981;
   margin-top: 2px;
+  flex-shrink: 0;
+}
+
+.tier-privileges li span {
+  display: block;
+  line-height: 1.45;
+  color: #334155;
+  word-break: normal;
+  overflow-wrap: break-word;
 }
 
 /* Master Budget Rows */
@@ -3052,8 +3065,8 @@ button, input, select, textarea {
   background: transparent;
   padding: 0;
   margin: auto;
-  max-width: 500px;
-  width: 90vw;
+  max-width: 620px;
+  width: 92vw;
 }
 
 .ticket-dialog::backdrop {
@@ -4462,3 +4475,178 @@ button, input, select, textarea {
     line-height: 1.5 !important;
   }
 }
+
+/* Gallery Audio Play Button */
+.btn-play-gallery-audio {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: var(--sen-pink, #d83a6f);
+  color: #ffffff;
+  font-size: 0.85rem;
+  font-weight: 700;
+  padding: 10px 16px;
+  border-radius: var(--radius-md, 8px);
+  border: none;
+  cursor: pointer;
+  transition: all var(--transition-fast, 0.2s ease);
+  margin-top: 12px;
+  width: 100%;
+}
+
+.btn-play-gallery-audio:hover {
+  background: var(--sen-pink-hover, #be185d);
+}
+
+.btn-play-gallery-audio.playing {
+  background: var(--vhu-gold-gradient, linear-gradient(135deg, #d4af37, #f3e5ab));
+  color: var(--vhu-navy-dark, #0b1f42) !important;
+}
+
+/* ============================================================
+   PARALLEL ACTIVITY & PRIVILEGES TABLE 5.4 STYLES
+============================================================ */
+.parallel-activity-card {
+  background: linear-gradient(135deg, rgba(216, 58, 111, 0.08) 0%, rgba(11, 31, 66, 0.04) 100%);
+  border: 1px solid rgba(216, 58, 111, 0.25);
+  border-left: 5px solid var(--sen-pink);
+  border-radius: var(--radius-lg);
+  padding: 22px 24px;
+  margin-bottom: 28px;
+  box-shadow: 0 4px 16px rgba(216, 58, 111, 0.06);
+}
+
+.parallel-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 12px;
+  padding-bottom: 10px;
+  border-bottom: 1px dashed rgba(216, 58, 111, 0.2);
+}
+
+.parallel-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(216, 58, 111, 0.12);
+  color: var(--sen-pink);
+  font-size: 0.78rem;
+  font-weight: 800;
+  padding: 4px 12px;
+  border-radius: var(--radius-full);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.live-dot-pink {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--sen-pink);
+  box-shadow: 0 0 8px var(--sen-pink);
+  display: inline-block;
+}
+
+.parallel-time-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  font-weight: 800;
+  color: var(--vhu-navy-base);
+  background: #ffffff;
+  padding: 4px 12px;
+  border-radius: var(--radius-md);
+  border: 1px solid #e2e8f0;
+}
+
+.parallel-card-body {
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+}
+
+.parallel-icon-box {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-md);
+  background: #ffffff;
+  border: 1px solid rgba(216, 58, 111, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  box-shadow: var(--shadow-sm);
+}
+
+.parallel-title {
+  font-family: var(--font-heading);
+  font-size: 1.12rem;
+  font-weight: 800;
+  color: var(--vhu-navy-dark);
+  margin-bottom: 6px;
+}
+
+.parallel-desc {
+  font-size: 0.88rem;
+  line-height: 1.6;
+  color: #475569;
+  margin-bottom: 12px;
+}
+
+.parallel-meta-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.meta-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8rem;
+  color: #334155;
+  background: #ffffff;
+  padding: 4px 10px;
+  border-radius: 6px;
+  border: 1px solid #e2e8f0;
+}
+
+/* Parallel timeline node */
+.timeline-node-parallel .badge-parallel {
+  background: linear-gradient(135deg, #d83a6f 0%, #be185d 100%) !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+  box-shadow: 0 4px 12px rgba(216, 58, 111, 0.3);
+}
+
+.timeline-node-parallel .time-sub-tag {
+  font-size: 0.65rem;
+  font-weight: 800;
+  color: #ffe4e6;
+  letter-spacing: 0.05em;
+  display: block;
+}
+
+.timeline-node-parallel .point-parallel {
+  background: #d83a6f !important;
+  border-color: #fbcfe8 !important;
+  box-shadow: 0 0 0 4px rgba(216, 58, 111, 0.2) !important;
+}
+
+.timeline-node-parallel .card-parallel {
+  border: 1.5px solid rgba(216, 58, 111, 0.35) !important;
+  background: #ffffff !important;
+  box-shadow: 0 6px 20px rgba(216, 58, 111, 0.08) !important;
+}
+
+.pill-parallel {
+  background: #fdf2f8 !important;
+  color: #be185d !important;
+  border: 1px solid #fbcfe8 !important;
+}
+

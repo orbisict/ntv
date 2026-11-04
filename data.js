@@ -1,6 +1,14 @@
 window.SITE_DATA = {
   "agenda": [
     {
+      "time": "7:30 – 11:30",
+      "activity": "Tham gia các gian hàng nhà tài trợ & Chụp ảnh check-in nhận quà",
+      "content": "Chụp ảnh check – in nhận quà (tại sảnh Trống Đồng) và trải nghiệm các gian hàng doanh nghiệp tài trợ.",
+      "audio": "Nhạc nền khu vực sảnh",
+      "team": "Ban vận hành phối hợp cùng doanh nghiệp",
+      "location": "Sảnh Trống Đồng (Hoạt động song song)"
+    },
+    {
       "time": "7:30 – 8:10",
       "activity": "Đón khách, Check-in và ổn định khán giả",
       "content": "Đón và ổn định khách mời",
@@ -27,13 +35,6 @@ window.SITE_DATA = {
       "content": "Đại diện Trường Đại học Văn Hiến:PGS.TS Nguyễn Minh Đức phát biểu khai mạc",
       "audio": "Nhạc nền sự kiện",
       "team": "Ban nội dung, ban kỹ thuật"
-    },
-    {
-      "time": "8:40 – 9:00",
-      "activity": "Tiết mục “Hồn Sen Đất Việt” kết hợp cùng các nghệ nhân “Đờn ca tài tử”.",
-      "content": "Phần trình diễn kết hợp âm nhạc truyền thống và Đờn ca tài tử, góp phần tôn vinh những giá trị văn hóa đặc trưng của Nam Bộ.",
-      "audio": "Nhạc beat tiết mục",
-      "team": "CLB văn nghệ phối hợp cùng các nghệ nhân"
     },
     {
       "time": "9:00 – 9:50",
@@ -1251,60 +1252,37 @@ window.SITE_DATA = {
   "sponsors": [
     {
       "source": "Nhà tài trợ Kim cương",
-      "quantity": "1",
+      "quantity": "01",
       "value": "100.000.000",
-      "unit": "Trường đại học Văn Hiến"
+      "unit": "Tài trợ độc quyền",
+      "privilege_summary": "Logo ưu tiên số 1, LED sân khấu ★★★★★, 12 bài Fanpage, 15 Video TikTok, Livestream riêng, MC xướng tên Khai mạc & Tổng kết"
     },
     {
       "source": "Nhà tài trợ Vàng",
-      "quantity": "2",
+      "quantity": "02",
       "value": "50.000.000",
-      "unit": "Tài trợ tiền mặt"
+      "unit": "Tài trợ tiền mặt",
+      "privilege_summary": "Logo nổi bật, LED sân khấu ★★★★, Booth ưu tiên tại Sảnh Trống Đồng, Phát sampling, 10 bài Fanpage, 10 Video TikTok"
     },
     {
       "source": "Nhà Tài Trợ Bạc",
-      "quantity": "3",
-      "value": "35.000.0000",
-      "unit": "Tài trợ tiền mặt"
+      "quantity": "03",
+      "value": "35.000.000",
+      "unit": "Tài trợ tiền mặt / NTT Truyền thông",
+      "privilege_summary": "Logo tiêu chuẩn, LED sân khấu ★★★, Booth tiêu chuẩn tại Sảnh Trống Đồng, Gắn logo khung stream, 8 bài Fanpage, 6 Video TikTok"
     },
     {
-      "source": "Đơn vị tài trợ địa điểm & Cơ sở vật chất",
-      "quantity": "1",
-      "value": "0đ",
-      "unit": "Trường đại học Văn Hiến"
-    },
-    {
-      "source": "Đơn vị tài trợ trang phục biểu và đạo cụ biểu diễn",
-      "quantity": "1",
-      "value": "0đ",
-      "unit": "Trang phục biểu diễn DIVIT"
-    },
-    {
-      "source": "Đơn vị tài trợ trang phục fashion show BTS Miệt Cù Lao",
-      "quantity": "1",
-      "value": "0đ",
-      "unit": "NTK Nguyễn Minh Công"
-    },
-    {
-      "source": "Nhà tài trợ truyền thông",
-      "quantity": "1",
-      "value": "0đ",
-      "unit": "Orbis ICT"
+      "source": "Đơn vị Đồng hành / Hiện vật",
+      "quantity": "Nhiều đơn vị",
+      "value": "Hiện vật",
+      "unit": "Trang phục, CSVC & Đồng hành",
+      "privilege_summary": "Logo đồng hành, LED sân khấu ★★, 5 bài Fanpage, 2 Video Shorts, Vinh danh Khai mạc & Giấy chứng nhận tri ân từ VHU"
     }
   ],
   "balance": [
-    {
-      "item": "Tổng thu",
-      "amount": "305.000.000"
-    },
-    {
-      "item": "Tổng chi",
-      "amount": "104.074.748"
-    },
-    {
-      "item": "Chênh lệch",
-      "amount": "200.925.252"
-    }
+    { "item": "Tổng thu", "amount": "305.000.000" },
+    { "item": "Tổng chi", "amount": "104.100.000" },
+    { "item": "Chênh lệch / Quỹ thiện nguyện", "amount": "200.900.000" }
   ],
   "privileges": [
     {

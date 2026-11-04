@@ -564,69 +564,64 @@ function initTicketRegistration() {
 ============================================================ */
 function initAudioSimulation() {
   const toggleBtn = document.getElementById('btn-audio-toggle');
+  const galleryAudioBtn = document.getElementById('btn-gallery-audio-toggle');
   const eqBars = document.querySelectorAll('.equalizer-wave .eq-bar');
-  if (!toggleBtn) return;
 
   let isPlaying = false;
-  let audioCtx = null;
-  let timerId = null;
+  let audio = new Audio('./assets/audio/04 - Launch Protocol.mp3');
+  audio.loop = true;
 
-  const pentatonicScale = [261.63, 293.66, 349.23, 392.00, 440.00, 523.25, 587.33];
-  let noteIndex = 0;
-
-  function playTone(freq) {
-    if (!audioCtx) return;
-    try {
-      const osc = audioCtx.createOscillator();
-      const gain = audioCtx.createGain();
-
-      osc.type = 'sine';
-      osc.frequency.setValueAtTime(freq, audioCtx.currentTime);
-
-      gain.gain.setValueAtTime(0, audioCtx.currentTime);
-      gain.gain.linearRampToValueAtTime(0.08, audioCtx.currentTime + 0.08);
-      gain.gain.exponentialRampToValueAtTime(0.0001, audioCtx.currentTime + 1.2);
-
-      osc.connect(gain);
-      gain.connect(audioCtx.destination);
-
-      osc.start();
-      osc.stop(audioCtx.currentTime + 1.25);
-    } catch(e) {}
-  }
-
-  function startMelody() {
-    function step() {
-      if (!isPlaying) return;
-      const freq = pentatonicScale[noteIndex % pentatonicScale.length];
-      playTone(freq);
-      noteIndex = (noteIndex + 1 + Math.floor(Math.random() * 2)) % pentatonicScale.length;
-      timerId = setTimeout(step, 900 + Math.random() * 400);
+  function updateUi(playing) {
+    isPlaying = playing;
+    if (toggleBtn) {
+      if (playing) {
+        toggleBtn.innerHTML = '<svg class="v-icon v-icon-sm" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg> Tạm dừng phát';
+        toggleBtn.classList.add('playing');
+      } else {
+        toggleBtn.innerHTML = '<svg class="v-icon v-icon-sm" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg> Phát nhạc sự kiện';
+        toggleBtn.classList.remove('playing');
+      }
     }
-    step();
+    if (galleryAudioBtn) {
+      if (playing) {
+        galleryAudioBtn.innerHTML = '<svg class="v-icon v-icon-sm" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg> Tạm dừng phát (MP3)';
+        galleryAudioBtn.classList.add('playing');
+      } else {
+        galleryAudioBtn.innerHTML = '<svg class="v-icon v-icon-sm" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg> Nghe bản nhạc sự kiện (MP3)';
+        galleryAudioBtn.classList.remove('playing');
+      }
+    }
+    eqBars.forEach(b => b.style.animationPlayState = playing ? 'running' : 'paused');
   }
 
-  toggleBtn.addEventListener('click', () => {
-    isPlaying = !isPlaying;
-
+  function handleToggle() {
     if (isPlaying) {
-      try {
-        if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
-        if (audioCtx.state === 'suspended') audioCtx.resume();
-      } catch(e) {}
-
-      toggleBtn.innerHTML = '<svg class="v-icon v-icon-sm" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg> Tạm dừng giai điệu';
-      toggleBtn.classList.add('playing');
-
-      eqBars.forEach(b => b.style.animationPlayState = 'running');
-      startMelody();
+      audio.pause();
+      updateUi(false);
     } else {
-      toggleBtn.innerHTML = '<svg class="v-icon v-icon-sm" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg> Bật giai điệu Sen';
-      toggleBtn.classList.remove('playing');
-
-      eqBars.forEach(b => b.style.animationPlayState = 'paused');
-      if (timerId) clearTimeout(timerId);
+      const playPromise = audio.play();
+      if (playPromise !== undefined) {
+        playPromise.then(() => {
+          updateUi(true);
+        }).catch(err => {
+          console.warn('Direct audio play failed, trying fallback path...', err);
+          audio.src = './assets/docs/04 - Launch Protocol.mp3';
+          audio.play().then(() => updateUi(true)).catch(() => {});
+        });
+      }
     }
+  }
+
+  if (toggleBtn) {
+    toggleBtn.addEventListener('click', handleToggle);
+  }
+  if (galleryAudioBtn) {
+    galleryAudioBtn.addEventListener('click', handleToggle);
+  }
+
+  audio.addEventListener('ended', () => updateUi(false));
+  audio.addEventListener('pause', () => {
+    if (isPlaying) updateUi(false);
   });
 }
 
@@ -1075,7 +1070,7 @@ function printTicket() {
           <div class="event-sup-title">CHƯƠNG TRÌNH VĂN HÓA &amp; NGHỆ THUẬT TỈNH ĐỒNG THÁP NĂM 2027</div>
           <div class="event-grand-title">CHẠM MỘT SẮC <span>SEN</span></div>
           <div class="event-guest-stars">
-            ★ Ca sĩ Phương Mỹ Chi &bull; Di sản Đờn ca tài tử &bull; Fashion Show BST Sen
+            ★ Hoa hậu Yến Nhi &bull; Á hậu Hạnh Nguyên &bull; Ca sĩ Phương Mỹ Chi
           </div>
         </div>
 
@@ -1092,10 +1087,7 @@ function printTicket() {
             <span class="info-label">Khoa / Đơn vị:</span>
             <span class="info-val">${faculty}</span>
           </div>
-          <div class="info-item">
-            <span class="info-label">Vị trí chỗ ngồi:</span>
-            <span class="info-val seat-badge">KHÁN ĐÀI A (HÀNG GHẾ VIP)</span>
-          </div>
+
           <div class="info-item span-2">
             <span class="info-label">Thời gian check-in &amp; Khai mạc:</span>
             <span class="info-val">07:30 – 11:10 &bull; Chủ Nhật, Ngày 20/06/2027</span>
@@ -1119,7 +1111,7 @@ function printTicket() {
         </div>
         <div class="stub-code-text">${code}</div>
         <div class="stub-guest-name">${name}</div>
-        <div style="font-size: 10px; color: #64748b; margin-bottom: 6px;">GATE A &bull; KHÁN ĐÀI VIP</div>
+        <div style="font-size: 10px; color: #64748b; margin-bottom: 6px;">KHU VỰC ĐẠI BIỂU</div>
         <div class="stub-note">Xuất trình tại Bàn Đón tiếp Tầng 9 để nhận Thẻ đeo sự kiện</div>
       </div>
     </div>

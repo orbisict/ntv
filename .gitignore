@@ -54,3 +54,6 @@ yarn-error.log*
 
 # Logs
 *.log
+
+# docs
+docs/
